@@ -14,3 +14,10 @@ D:\Software\MS\project\Application\SCXL.Logs\bin\Debug\log4net.xml
 D:\Software\MS\project\Application\SCXL.Logs\obj\Debug\SCXLRestService.Logs.dll
 D:\Software\MS\project\Application\SCXL.Logs\obj\Debug\SCXLRestService.Logs.pdb
 D:\Software\MS\project\Application\SCXL.Logs\obj\Debug\APP.Logs.csprojResolveAssemblyReference.cache
+D:\Software\MS\project\EntityManagement\SCXL.Logs\bin\Debug\SCXLRestService.Logs.dll
+D:\Software\MS\project\EntityManagement\SCXL.Logs\bin\Debug\SCXLRestService.Logs.pdb
+D:\Software\MS\project\EntityManagement\SCXL.Logs\bin\Debug\log4net.dll
+D:\Software\MS\project\EntityManagement\SCXL.Logs\bin\Debug\log4net.xml
+D:\Software\MS\project\EntityManagement\SCXL.Logs\obj\Debug\APP.Logs.csprojResolveAssemblyReference.cache
+D:\Software\MS\project\EntityManagement\SCXL.Logs\obj\Debug\SCXLRestService.Logs.dll
+D:\Software\MS\project\EntityManagement\SCXL.Logs\obj\Debug\SCXLRestService.Logs.pdb

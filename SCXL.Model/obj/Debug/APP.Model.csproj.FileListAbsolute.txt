@@ -8,3 +8,7 @@ D:\Software\MS\project\Application\SCXL.Model\bin\Debug\SCXL.Model.dll
 D:\Software\MS\project\Application\SCXL.Model\bin\Debug\SCXL.Model.pdb
 D:\Software\MS\project\Application\SCXL.Model\obj\Debug\SCXL.Model.dll
 D:\Software\MS\project\Application\SCXL.Model\obj\Debug\SCXL.Model.pdb
+D:\Software\MS\project\EntityManagement\SCXL.Model\bin\Debug\SCXL.Model.dll
+D:\Software\MS\project\EntityManagement\SCXL.Model\bin\Debug\SCXL.Model.pdb
+D:\Software\MS\project\EntityManagement\SCXL.Model\obj\Debug\SCXL.Model.dll
+D:\Software\MS\project\EntityManagement\SCXL.Model\obj\Debug\SCXL.Model.pdb
