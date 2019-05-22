@@ -1,0 +1,9 @@
+C:\Suncor Application\Price Export\Application\SCXL.Logs\bin\Release\SCXLRestService.Logs.dll
+C:\Suncor Application\Price Export\Application\SCXL.Logs\bin\Release\SCXLRestService.Logs.pdb
+C:\Suncor Application\Price Export\Application\SCXL.Logs\bin\Release\log4net.dll
+C:\Suncor Application\Price Export\Application\SCXL.Logs\bin\Release\log4net.xml
+C:\Suncor Application\Price Export\Application\SCXL.Logs\obj\Release\SCXL.Logs.csprojAssemblyReference.cache
+C:\Suncor Application\Price Export\Application\SCXL.Logs\obj\Release\SCXL.Logs.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Price Export\Application\SCXL.Logs\obj\Release\SCXL.Logs.csproj.CopyComplete
+C:\Suncor Application\Price Export\Application\SCXL.Logs\obj\Release\SCXLRestService.Logs.dll
+C:\Suncor Application\Price Export\Application\SCXL.Logs\obj\Release\SCXLRestService.Logs.pdb

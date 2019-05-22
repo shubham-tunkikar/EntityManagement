@@ -1,0 +1,115 @@
+﻿#MainDiv {
+    margin-top: 45px;
+}
+
+#searchDiv {
+    margin-top: 1%;
+    border-bottom: groove;
+}
+
+#btnResetAndSave {
+    margin-top: 10px;
+}
+
+#ScheduleSelect {
+    min-width: 155px;
+}
+
+#AccPeriodSelect {
+    min-width: 155px;
+}
+
+
+
+#BelowSearchDiv {
+    margin-top: 1%;
+}
+
+#tableHeader {
+    background-color: #dcdcdc;
+    text-align: center;
+    width: 15%;
+}
+
+#sectionCSS {
+    width: 7%;
+}
+
+
+#feedLoading {
+    position: absolute;
+    min-width: 63%;
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    text-shadow: 2px 2px 2px #021124;
+    background-color: #00000038;
+    min-height: 47%;
+    margin-left: -1%;
+}
+
+#innerFeedLoading {
+    min-width: 63%;
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    text-shadow: 2px 2px 2px #021124;
+    background-color: #00000038;
+}
+
+.tableFixHead {
+    overflow-y: auto;
+    height: 645px;
+}
+
+    .tableFixHead th {
+        position: sticky;
+        top: 0;
+    }
+
+/* Just common table stuff. Really. */
+table {
+    border-collapse: collapse;
+    width: 600%;
+}
+
+th, td {
+    padding: 8px 16px;
+}
+
+th {
+    background: #eee;
+}
+.tableFixHeadinner {
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 300px;
+}
+
+    .tableFixHeadinner th {
+        position: sticky;
+        top: 0;
+    }
+
+#tbl_cnt {
+    border-collapse: collapse;
+    width: 100%;
+    word-break: break-all;
+}
+
+    #tbl_cnt thead, #tbl_cnt tbody {
+        display: block;
+    }
+
+        #tbl_cnt thead tr {
+            background-color: #8C8787;
+            text-align: center;
+            width: 100%;
+            display: block;
+        }
+
+    #tbl_cnt tbody {
+        height: 100px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }

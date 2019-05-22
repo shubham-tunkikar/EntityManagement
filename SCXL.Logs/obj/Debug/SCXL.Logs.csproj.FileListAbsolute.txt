@@ -1,0 +1,18 @@
+C:\Suncor Application\Price Export\Application\SCXL.Logs\bin\Debug\SCXLRestService.Logs.dll
+C:\Suncor Application\Price Export\Application\SCXL.Logs\bin\Debug\SCXLRestService.Logs.pdb
+C:\Suncor Application\Price Export\Application\SCXL.Logs\bin\Debug\log4net.dll
+C:\Suncor Application\Price Export\Application\SCXL.Logs\bin\Debug\log4net.xml
+C:\Suncor Application\Price Export\Application\SCXL.Logs\obj\Debug\SCXL.Logs.csprojAssemblyReference.cache
+C:\Suncor Application\Price Export\Application\SCXL.Logs\obj\Debug\SCXL.Logs.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Price Export\Application\SCXL.Logs\obj\Debug\SCXL.Logs.csproj.CopyComplete
+C:\Suncor Application\Price Export\Application\SCXL.Logs\obj\Debug\SCXLRestService.Logs.dll
+C:\Suncor Application\Price Export\Application\SCXL.Logs\obj\Debug\SCXLRestService.Logs.pdb
+E:\Business\Example Application\Application\SCXL.Logs\bin\Debug\SCXLRestService.Logs.dll
+E:\Business\Example Application\Application\SCXL.Logs\bin\Debug\SCXLRestService.Logs.pdb
+E:\Business\Example Application\Application\SCXL.Logs\bin\Debug\log4net.dll
+E:\Business\Example Application\Application\SCXL.Logs\bin\Debug\log4net.xml
+E:\Business\Example Application\Application\SCXL.Logs\obj\Debug\SCXL.Logs.csprojAssemblyReference.cache
+E:\Business\Example Application\Application\SCXL.Logs\obj\Debug\SCXL.Logs.csproj.CoreCompileInputs.cache
+E:\Business\Example Application\Application\SCXL.Logs\obj\Debug\SCXL.Logs.csproj.CopyComplete
+E:\Business\Example Application\Application\SCXL.Logs\obj\Debug\SCXLRestService.Logs.dll
+E:\Business\Example Application\Application\SCXL.Logs\obj\Debug\SCXLRestService.Logs.pdb

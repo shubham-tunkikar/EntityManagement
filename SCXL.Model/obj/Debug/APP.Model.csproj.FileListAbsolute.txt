@@ -1,0 +1,10 @@
+E:\Business\Example Application\Application\SCXL.Model\bin\Debug\SCXL.Model.dll
+E:\Business\Example Application\Application\SCXL.Model\bin\Debug\SCXL.Model.pdb
+E:\Business\Example Application\Application\SCXL.Model\obj\Debug\APP.Model.csproj.CoreCompileInputs.cache
+E:\Business\Example Application\Application\SCXL.Model\obj\Debug\SCXL.Model.dll
+E:\Business\Example Application\Application\SCXL.Model\obj\Debug\SCXL.Model.pdb
+E:\Business\Example Application\Application\SCXL.Model\obj\Debug\APP.Model.csprojAssemblyReference.cache
+D:\Software\MS\project\Application\SCXL.Model\bin\Debug\SCXL.Model.dll
+D:\Software\MS\project\Application\SCXL.Model\bin\Debug\SCXL.Model.pdb
+D:\Software\MS\project\Application\SCXL.Model\obj\Debug\SCXL.Model.dll
+D:\Software\MS\project\Application\SCXL.Model\obj\Debug\SCXL.Model.pdb

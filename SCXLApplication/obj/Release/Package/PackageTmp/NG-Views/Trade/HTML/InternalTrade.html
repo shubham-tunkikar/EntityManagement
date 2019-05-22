@@ -1,0 +1,1354 @@
+﻿<style>
+    label {
+        font-size: small;
+        color: black;
+    }
+
+    #feedLoading {
+        position: absolute;
+        top: 11%;
+        min-width: 61%;
+        text-align: center;
+        font-size: 4em;
+        color: white;
+        text-shadow: 2px 2px 2px #021124;
+        background-color: #00000038;
+        min-height: 80%;
+        margin-left: -1%;
+    }
+
+    body {
+        font-family: Arial;
+    }
+
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
+
+    .maintab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
+
+    .maintabcontent {
+        display: none;
+        padding: 6px 12px;
+        -webkit-animation: fadeEffect 1s;
+        animation: fadeEffect 1s;
+    }
+
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        -webkit-animation: fadeEffect 1s;
+        animation: fadeEffect 1s;
+    }
+
+    .block {
+        display: block;
+        width: 100%;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        padding: 5px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+        .block:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+    .first-row {
+        min-height: 20%;
+    }
+
+    .link-disable {
+        pointer-events: none;
+        cursor: default;
+    }
+</style>
+
+<div class="tabbable tabs-below" ng-init="selectedTab = 1;" ng-controller="InternalTradeCont">
+    <ul class="nav nav-tabs nav-justified">
+        <li ng-class="{active: selectedTab == 1}"><a data-toggle="tab" ng-click="selectedTab = 1;">First Interbook Trade</a></li>
+        <li ng-class="{active: selectedTab == 2}"><a data-toggle="tab" ng-click="selectedTab = 2;" class="secondtradeTab link-disable">Second Interbook Trade</a></li>
+        <li ng-class="{active: selectedTab == 3}"><a data-toggle="tab" ng-click="selectedTab = 3;" class="summaryTab link-disable">Interbook Trade Summary</a></li>
+    </ul>
+    <div id="InterbookFirstTrade" class="tab-content" ng-if="selectedTab == 1">
+        <form style="min-height:750px; margin-top: 2%;" name="tradeForm" novalidate>
+            <div class="row first-row">
+                <div class="col-md-12">
+                    <div class="col-md-3" style="height:77px;">
+                        <div class="row" style="border-bottom:groove;">
+                            <label for="Buyer">Buyer</label>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-md-3">
+                                <label for="CounterPart">CounterPart</label>
+                            </div>
+                            <div class="col-md-9">
+                                <select class="form-control input-sm full-width" ng-disabled="true" ng-model="trade.counterPart" style="margin-left:23px; width:168px;">
+                                    <option ng-repeat="counter in CounterpartyList" value="{{counter.Company_num}}">{{counter.Company_cd}}</option>
+                                    <option disabled selected value>Select CounterPart</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3" style="height:120px;">
+                        <div class="row" style="border-bottom:groove;">
+                            <label for="Seller">Seller</label>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-md-5">
+                                <label for="InternalCo">Internal Co</label>
+                            </div>
+                            <div class="col-md-7">
+                                <select class="form-control input-sm full-width" name="internal" ng-model="trade.internalCo" style="margin-left:-24px; width:168px;" ng-change="getTraderData(trade.internalCo,trade.counterPart)" required>
+                                    <option ng-repeat="inter in InternalCoList" value="{{inter.Company_num}}">{{inter.Company_cd}}</option>
+                                    <option disabled selected value>Select Internal</option>
+                                </select>
+                                <span class="alert-danger" ng-show="tradeForm.internal.$error.required  && (tradeForm.internal.$touched ||  tradeForm.$submitted)">
+                                    Please select internal company
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-md-3">
+                                <label for="Trader">Trader</label>
+                            </div>
+                            <div class="col-md-9">
+                                <select class="form-control input-sm full-width" name="trader" ng-model="trade.trader" style="margin-left:23px; width:168px;" required>
+                                    <option ng-repeat="td in TraderList" value="{{td.Person_num}}">{{td.Person_name}}</option>
+                                    <option disabled selected value>Select Trader</option>
+                                </select>
+                                <span class="alert-danger" ng-show="tradeForm.trader.$error.required && (tradeForm.trader.$touched || tradeForm.$submitted)">
+                                    Please select Trader
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3" style="min-height:77px;">
+                        <div class="row" style="border-bottom:groove; margin-top:2%;">
+                            <label for="Info"></label>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-md-3">
+                                <label for="tradeDate">Trade Date</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="date" ng-model="trade.tradedate" name="tradedate" class="k-textbox input-sm full-width" style="width: 86%;" required min="{{today}}" />
+                                <span class="alert-danger" ng-show="tradeForm.tradedate.$error.required && (tradeForm.tradedate.$touched || tradeForm.$submitted)">
+                                    Please select trade date
+                                </span>
+                                <span class="alert-danger" ng-show="tradeForm.tradedate.$error.min">Start Date should not be less than current date</span><br />
+                                <span class="alert-danger" ng-show="tradeForm.tradedate.$invalid">Invalid date</span>
+
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-md-3">
+                                <label for="tradestatus">Trade status</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input class="k-textbox input-sm full-width" type="text" name="tradestatus" style="width: 86%;" ng-disabled="true" placeholder="Trade Status" ng-model="trade.tradestatus" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="height:77px;">
+                        <div class="row" style="border-bottom:groove;">
+                            <label for="Info">Trade Information</label>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-md-3">
+                                <label for="refId">Ref ID</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input class="k-textbox input-sm full-width" name="refranceID" type="text" style="width: 86%;" ng-disabled="true" placeholder="Reference Id" ng-model="trade.tradeReferenceId" />
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-md-3">
+                                <label for="tradenum">Trade Number</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input class="k-textbox input-sm full-width" name="tradenumber" type="text" style="width: 86%;" ng-disabled="true" placeholder="Trade Number" ng-model="trade.tradeNumber" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="border:groove; min-height:200px;">
+                <div class="col-md-12">
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Commodity">Commodity</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" name="commodity" ng-model="trade.commodity" style="margin-left:-24px; width:168px;" required>
+                                    <option ng-repeat="com in CommodityList" value="{{com.cmdty_cd}}">{{com.cmdty_cd}}</option>
+                                    <option disabled selected value>Select Commodity</option>
+                                </select>
+                                <span class="alert-danger" ng-show="tradeForm.commodity.$error.required && (tradeForm.commodity.$touched || tradeForm.$submitted)">
+                                    <span>Please select commodity</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="BuySell">Buy/Sell</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" name="buySell" ng-model="trade.buySell" style="margin-left:-24px; width:168px;" required>
+                                    <option ng-repeat="buysell in BuySellList" value="{{buysell.ID}}">{{buysell.Value}}</option>
+                                    <option disabled selected value>Select Buy/Sell</option>
+                                </select>
+                                <span class="alert-danger" ng-show="tradeForm.buySell.$error.required && (tradeForm.buySell.$touched || tradeForm.$submitted)">
+                                    <span>Please select Buy or Sell</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Strategy">Strategy</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" name="strategy" ng-model="trade.Strategy" style="margin-left:-24px; width:168px;" required>
+                                    <option ng-repeat="str in StrategyList" value="{{str.strategy_num}}">{{str.strategy_name}}</option>
+                                    <option disabled selected value>Select Strategy</option>
+                                </select>
+                                <span class="alert-danger" ng-show="tradeForm.strategy.$error.required  && (tradeForm.strategy.$touched || tradeForm.$submitted)">
+                                    Please select strategy
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Terms">Terms</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" name="deliveryTerms" ng-model="trade.Terms" style="margin-left:-24px; width:168px;" required>
+                                    <option ng-repeat="t in TermsList" value="{{t.delivery_term_cd}}">{{t.delivery_term_cd}}</option>
+                                    <option disabled selected value>Select Terms</option>
+                                </select>
+                                <span class="alert-danger" ng-show="tradeForm.deliveryTerms.$error.required && (tradeForm.strategy.$touched || tradeForm.$submitted)">
+                                    Please select terms
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="MenQty">Mean QTY</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input class="k-textbox input-sm full-width" type="text" name="meanqty" placeholder="Mean QTY" ng-model="trade.menQty" required />
+                            </div>
+                            <span class="alert-danger" ng-show="tradeForm.meanqty.$error.required && (tradeForm.meanqty.$touched || tradeForm.$submitted)">
+                                Please select mean qty
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Location">Location</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" name="location" ng-model="trade.location" style="margin-left:-24px; width:168px;" required>
+                                    <option ng-repeat="loc in LocationList" value="{{loc.location_num}}">{{loc.Location_cd}}</option>
+                                    <option disabled selected value>Select Location</option>
+                                </select>
+                                <span class="alert-danger" ng-show="tradeForm.location.$error.required && (tradeForm.location.$touched || tradeForm.$submitted)">
+                                    Please select valid location
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-12">
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="QtyUOM">QTY UOM</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" name="qtyuom" ng-model="trade.qtyUOM" style="margin-left:-24px; width:168px;" required>
+                                    <option ng-repeat="qty in QtyUOMList" value="{{qty.Uom_cd}}">{{qty.Uom_cd}}</option>
+                                    <option disabled selected value>Select Qty UOM</option>
+                                </select>
+                                <span class="alert-danger" ng-show="tradeForm.qtyuom.$error.required && (tradeForm.qtyuom.$touched || tradeForm.$submitted)">
+                                    Please select Qty UOM
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Calendar">Calendar</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" ng-model="trade.calendar" style="margin-left:-24px; width:168px;">
+                                    <option ng-repeat="cl in CalendarList" value="{{cl.calendar_cd}}">{{cl.calendar_cd}}</option>
+                                    <option disabled selected value>Select Calendar</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="DeliveryPeriod">Delivery Period</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" ng-model="trade.deliveryperiod" style="margin-left:-24px; width:168px;" ng-change="getTimePeriodData(trade.deliveryperiod)">
+                                    <option ng-repeat="dlpr in DeliveryPeriodList" value="{{dlpr.Period_cd}}">{{dlpr.Period_cd}}</option>
+                                    <option disabled selected value>Select Delivery Period</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="StartDate">Start Date</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="date" ng-model="trade.startDate" class="form-control" />
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="EndDate">End Date</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="date" ng-model="trade.endDate" class="form-control" />
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Schedule">Schedule</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" ng-model="trade.schedule" style="margin-left:-24px; width:168px;">
+                                    <option ng-repeat="sch in ScheduleList" value="{{sch.Deliv_sched_cd}}">{{sch.Deliv_sched_cd}}</option>
+                                    <option disabled selected value>Select Schedule</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-12">
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Periodicity">Periodicity</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" ng-model="trade.periodicity" style="margin-left:-24px; width:168px;">
+                                    <option ng-repeat="pr in PeriodicityList" value="{{pr.ID}}">{{pr.Value}}</option>
+                                    <option disabled selected value>Select Periodicity</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="MOT">MOT</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" ng-model="trade.MOT" style="margin-left:-24px; width:168px;" ng-change="getVechicleData(trade.MOT)">
+                                    <option ng-repeat="mt in MOTList" value="{{mt.ID}}">{{mt.Value}}</option>
+                                    <option disabled selected value>Select MOT</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Vehicle">Vehicle</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" ng-model="trade.vehicle" style="margin-left:-24px; width:168px;">
+                                    <option ng-repeat="vch in VehicleList" value="{{vch.Mot_num}}">{{vch.Mot_cd}}</option>
+                                    <option disabled selected value>Select Vehicle</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Carrier">Carrier</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" ng-model="trade.carrier" style="margin-left:-24px; width:168px;">
+                                    <option ng-repeat="car in CarrierList" value="{{car.Company_num}}">{{car.Company_cd}}</option>
+                                    <option disabled selected value>Select Carrier</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row" style="border:groove; min-height:55%;">
+                <div class="col-md-12">
+                    <div class="tab">
+                        <button class="tablinks active" ng-click="openTabData($event, 'Details')" id="defaultthisOpen">Details</button>
+                        <button class="tablinks" ng-click="openTabData($event, 'Cost')">Cost</button>
+                        <button class="tablinks" ng-click="openTabData($event, 'Contractual')">Contractual</button>
+                    </div>
+
+                    <div id="Details" class="tabcontent">
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                <div class="col-md-4" style="border:groove; height:312px;">
+                                    <div class="row">
+                                        <label for="PriceType">Price</label>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label for="PriceType">Price Type</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-model="trade.priceType" ng-change="enablingDisablingComponent(trade.priceType)">
+                                                <option ng-repeat="prty in PriceTypeList" value="{{prty.ID}}">{{prty.Value}}</option>
+                                                <option disabled selected value>Select Price Type</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top:2%;">
+                                        <div class="col-md-4">
+                                            <label for="Index">Index</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-disabled="Index" ng-model="trade.index" ng-change="indexDropdownSelection(trade.index)">
+                                                <option ng-repeat="indd in IndexList" value="{{indd.Quote_def_num}}">{{indd.Quote_def_cd}}</option>
+                                                <option disabled selected value>Select Index</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top:2%;">
+                                        <div class="col-md-4">
+                                            <label for="PricePremDisc">Price/Prem-disc</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <input class="k-textbox input-sm full-width" ng-disabled="fixed" type="text" placeholder=" Price/Prem Disc" ng-model="trade.pricePremDisc1" ng-change="selectionprice(trade.pricePremDisc1)" />
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <select class="form-control input-sm full-width" ng-disabled="fixed" ng-model="trade.pricePremDisc2" ng-change="selectionCCY1(trade.pricePremDisc2)">
+                                                        <option ng-repeat="dccy in PricePremDisc2List" value="{{dccy.curr_cd}}">{{dccy.curr_cd}}</option>
+                                                        <option disabled selected value>Select</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <select class="form-control input-sm full-width" ng-disabled="fixed" ng-model="trade.pricePremDisc3" ng-change="selectionUOM1(trade.pricePremDisc3)">
+                                                        <option ng-repeat="prpr in PricePremDisc3List" value="{{prpr.Uom_cd}}">{{prpr.Uom_cd}}</option>
+                                                        <option disabled selected value>Select</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top:2%;">
+                                        <div class="col-md-4">
+                                            <label for="Schedule">Schedule</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-disabled="fixed" ng-model="trade.dschedule">
+                                                <option ng-repeat="dsch in dScheduleList" value="{{dsch.ID}}">{{dsch.Value}}</option>
+                                                <option disabled selected value>Select Schedule</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top:2%;">
+                                        <div class="col-md-4">
+                                            <label for="PricingRule">Pricing Rule</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-disabled="Index" ng-model="trade.pricingRule" ng-change="getPricingRule(trade.pricingRule)">
+                                                <option ng-repeat="prul in PricingRuleList" value="{{prul.ID}}">{{prul.Value}}</option>
+                                                <option disabled selected value>Select Pricing Rule</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top:2%;">
+                                        <div class="col-md-4">
+                                            <label for="PricingTerm">Pricing Term</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-disabled="Index" ng-model="trade.pricingTerm">
+                                                <option ng-repeat="prterm in PricingTermList" value="{{prterm.Pricing_term_cd}}">{{prterm.Pricing_term_cd}}</option>
+                                                <option disabled selected value>Select Pricing Term</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4" style="border:groove; height:312px;">
+                                    <div class="row">
+                                        <label for="MTM">MTM</label>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label for="MTMCurve">MTM Curve</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-model="trade.mTMCurveList">
+                                                <option ng-repeat="mtmcurve in MTMCurveList" value="{{mtmcurve.Curve_num}}">{{mtmcurve.Curve_def_cd}}</option>
+                                                <option disabled selected value>Select MTM Curve</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4" style="border:groove; height:312px;">
+                                    <div class="row">
+                                        <label for="Contract">Contract</label>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label for="Agreementtype">Agreement Type</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-model="trade.agreementtype" ng-change="agreementFromDropdown(trade.agreementtype)">
+                                                <option ng-repeat="agrtype in Agreementtypeist" value="{{agrtype.Agreement_cd}}">{{agrtype.Agreement_cd}}</option>
+                                                <option disabled selected value>Select Agreement Type</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label for="AgreementForm">Agreement Form</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-model="trade.agreementForm">
+                                                <option ng-repeat="agrfrom in AgreementFormist" value="{{agrfrom.Provision_cd}}">{{agrfrom.Provision_cd}}</option>
+                                                <option disabled selected value>Select Agreement Form</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="Cost" class="tabcontent">
+                        <div class="row">
+                            <div class="col-md-12" style="border:groove; height:312px; margin-left:2%; width:98%;">
+
+                                <div class="col-md-2">
+                                    <div class="row">
+                                        <label for="PriceTypeC">Price Type</label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <select class="form-control input-sm full-width" ng-model="trade.priceTypeC" style="margin-left:-24px; width:168px;" ng-change="enablingDisablingComponent(trade.priceTypeC)">
+                                                <option ng-repeat="prty in PriceTypeCList" value="{{prty.ID}}">{{prty.Value}}</option>
+                                                <option disabled selected value>Select Price Type</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="row">
+                                        <label for="IndexC">Index</label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <select class="form-control input-sm full-width" ng-disabled="Index" ng-model="trade.indexC" style="margin-left:-24px; width:168px;" ng-change="indexDropdownSelection1(trade.indexC)">
+                                                <option ng-repeat="ind in IndexCList" value="{{ind.Quote_def_num}}">{{ind.Quote_def_cd}}</option>
+                                                <option disabled selected value>Select Index</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="row">
+                                        <label for="PricePremC">Price/Prem</label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <input class="k-textbox input-sm full-width" type="text" ng-disabled="fixed" placeholder=" Price/Prem" ng-model="trade.PricePremC" ng-change="selectionpriceC(trade.PricePremC)" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="row">
+                                        <label for="CCY">CCY</label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <select class="form-control input-sm full-width" ng-model="trade.CCYC" ng-disabled="fixed" style="margin-left:-24px; width:168px;" ng-change="selectionCCY(trade.CCYC)">
+                                                <option ng-repeat="ccy in CCYCList" value="{{ccy.curr_cd}}">{{ccy.curr_cd}}</option>
+                                                <option disabled selected value>Select CCY</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="row">
+                                        <label for="UOM">UOM</label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <select class="form-control input-sm full-width" ng-disabled="fixed" ng-model="trade.UOMC" style="margin-left:-24px; width:168px;" ng-change="selectionUOM(trade.UOMC)">
+                                                <option ng-repeat="uom in UOMCList" value="{{uom.Uom_cd}}">{{uom.Uom_cd}}</option>
+                                                <option disabled selected value>Select UOM</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="Contractual" class="tabcontent">
+                        <div class="row">
+                            <div class="col-md-12" style="border:groove; height:312px; margin-left:2%; width:98%;">
+                                <div class="row">
+                                    <label for="Settlement">Settlement</label>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <label for="CCYCC">CCY</label>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <select class="form-control input-sm full-width" ng-model="trade.CCYCC">
+                                            <option ng-repeat="cycc in CCYCCList" value="{{cycc.curr_cd}}">{{cycc.curr_cd}}</option>
+                                            <option disabled selected value>Select CCY</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <label for="UOMCC">UOM</label>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <select class="form-control input-sm full-width" ng-model="trade.UOMCC">
+                                            <option ng-repeat="uomc in UOMCCList" value="{{uomc.Uom_cd}}">{{uomc.Uom_cd}}</option>
+                                            <option disabled selected value>Select UOM</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="row" style="margin-top:2%;">
+                                    <div class="col-md-1">
+                                        <label for="PaymentCC">Payment</label>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <select class="form-control input-sm full-width" ng-model="trade.paymentCC">
+                                            <option ng-repeat="pay in PaymentCCList" value="{{pay.payment_term_cd}}">{{pay.payment_term_cd}}</option>
+                                            <option disabled selected value>Select Payment</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:1%;">
+                <div class="col-md-2 pull-right">
+                    <button class="block" ng-click="saveReference(tradeForm.$valid)">Save</button>
+                </div>
+                <div class="col-md-2 pull-right">
+                    <button class="block" ng-click="resetForm()">Reset</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <div id="InterbookSecondTrade" class="tab-content" ng-if="selectedTab == 2">
+        <form style="height:740px; margin-top: 2%;" name="SecondTradeForm" novalidate>
+            <div class="row first-row">
+                <div class="col-md-12">
+                    <div class="col-md-3" style="height:77px;">
+                        <div class="row" style="border-bottom:groove;">
+                            <label for="Buyer">Buyer</label>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-md-3">
+                                <label for="CounterPart">CounterPart</label>
+                            </div>
+                            <div class="col-md-9">
+                                <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.counterPart" style="margin-left:23px; width:168px;">
+                                    <option ng-repeat="counter in CounterpartyList" value="{{counter.Company_num}}">{{counter.Company_cd}}</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3" style="height:120px;">
+                        <div class="row" style="border-bottom:groove;">
+                            <label for="Seller">Seller</label>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-md-5">
+                                <label for="InternalCo">Internal Co</label>
+                            </div>
+                            <div class="col-md-7">
+                                <select class="form-control input-sm full-width" name="internal" ng-disabled="true" ng-model="secondTrade.internalCo" style="margin-left:-24px; width:168px;" ng-change="getTraderData(trade.internalCo,trade.counterPart)" required>
+                                    <option ng-repeat="inter in InternalCoList" value="{{inter.Company_num}}">{{inter.Company_cd}}</option>
+                                    <option disabled selected value>Select Internal</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-md-3">
+                                <label for="Trader">Trader</label>
+                            </div>
+                            <div class="col-md-9">
+                                <select class="form-control input-sm full-width" name="trader" ng-disabled="true" ng-model="secondTrade.trader" style="margin-left:23px; width:168px;" required>
+                                    <option ng-repeat="td in TraderList" value="{{td.Person_num}}">{{td.Person_name}}</option>
+                                    <option disabled selected value>Select Trader</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3" style="min-height:77px;">
+                        <div class="row" style="border-bottom:groove; margin-top:2%;">
+                            <label for="Info"></label>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-md-3">
+                                <label for="tradeDate">Trade Date</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="date" ng-model="secondTrade.tradedate" name="tradedate" class="k-textbox input-sm full-width" style="width: 86%;" required min="{{today}}" />
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-md-3">
+                                <label for="tradestatus">Trade status</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input class="k-textbox input-sm full-width" type="text" name="tradestatus" style="width: 86%;" ng-disabled="true" placeholder="Trade Status" ng-model="secondTrade.tradestatus" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="height:77px;">
+                        <div class="row" style="border-bottom:groove;">
+                            <label for="Info">Trade Information</label>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-md-3">
+                                <label for="refId">Ref ID</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input class="k-textbox input-sm full-width" name="refranceID" type="text" style="width: 86%;" ng-disabled="true" placeholder="Reference Id" ng-model="secondTrade.tradeReferenceId" />
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-md-3">
+                                <label for="tradenum">Trade Number</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input class="k-textbox input-sm full-width" name="tradenumber" type="text" style="width: 86%;" ng-disabled="true" placeholder="Trade Number" ng-model="secondTrade.tradeNumber" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="border:groove; min-height:200px;">
+                <div class="col-md-12">
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Commodity">Commodity</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" name="commodity" ng-model="secondTrade.commodity" style="margin-left:-24px; width:168px;" required>
+                                    <option ng-repeat="com in CommodityList" value="{{com.cmdty_cd}}">{{com.cmdty_cd}}</option>
+                                    <option disabled selected value>Select Commodity</option>
+                                </select>
+                                <span class="alert-danger" ng-show="tradeForm.commodity.$error.required && (tradeForm.commodity.$touched || tradeForm.$submitted)">
+                                    <span>Please select commodity</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="BuySell">Buy/Sell</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" name="buySell" ng-disabled="true" ng-model="secondTrade.buySell" style="margin-left:-24px; width:168px;" required>
+                                    <option ng-repeat="buysell in BuySellList" value="{{buysell.ID}}">{{buysell.Value}}</option>
+                                    <option disabled selected value>Select Buy/Sell</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Strategy">Strategy</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" name="strategy" ng-model="secondTrade.Strategy" style="margin-left:-24px; width:168px;" required>
+                                    <option ng-repeat="str in StrategyList" value="{{str.strategy_num}}">{{str.strategy_name}}</option>
+                                    <option disabled selected value>Select Strategy</option>
+                                </select>
+                                <span class="alert-danger" ng-show="tradeForm.strategy.$error.required  && (tradeForm.strategy.$touched || tradeForm.$submitted)">
+                                    Please select strategy
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Terms">Terms</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" name="deliveryTerms" ng-model="secondTrade.Terms" ng-disabled="true" style="margin-left:-24px; width:168px;" required>
+                                    <option ng-repeat="t in TermsList" value="{{t.delivery_term_cd}}">{{t.delivery_term_cd}}</option>
+                                    <option disabled selected value>Select Terms</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="MenQty">Mean QTY</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input class="k-textbox input-sm full-width" type="text" name="meanqty" placeholder="Mean QTY" ng-model="secondTrade.menQty" ng-disabled="true" />
+                            </div>
+                            <span class="alert-danger" ng-show="tradeForm.meanqty.$error.required && (tradeForm.meanqty.$touched || tradeForm.$submitted)">
+                                Please select mean qty
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Location">Location</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" name="location" ng-disabled="true" ng-model="secondTrade.location" style="margin-left:-24px; width:168px;">
+                                    <option ng-repeat="loc in LocationList" value="{{loc.location_num}}">{{loc.Location_cd}}</option>
+                                    <option disabled selected value>Select Location</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-12">
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="QtyUOM">QTY UOM</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" name="qtyuom" ng-disabled="true" ng-model="secondTrade.qtyUOM" style="margin-left:-24px; width:168px;" required>
+                                    <option ng-repeat="qty in QtyUOMList" value="{{qty.Uom_cd}}">{{qty.Uom_cd}}</option>
+                                    <option disabled selected value>Select Qty UOM</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Calendar">Calendar</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.calendar" style="margin-left:-24px; width:168px;">
+                                    <option ng-repeat="cl in CalendarList" value="{{cl.calendar_cd}}">{{cl.calendar_cd}}</option>
+                                    <option disabled selected value>Select Calendar</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="DeliveryPeriod">Delivery Period</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.deliveryperiod" style="margin-left:-24px; width:168px;">
+                                    <option ng-repeat="dlpr in DeliveryPeriodList" value="{{dlpr.Period_cd}}">{{dlpr.Period_cd}}</option>
+                                    <option disabled selected value>Select Delivery Period</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="StartDate">Start Date</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="date" ng-disabled="true" ng-model="secondTrade.startDate" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="EndDate">End Date</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="date" ng-disabled="true" ng-model="secondTrade.endDate" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Schedule">Schedule</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.schedule" style="margin-left:-24px; width:168px;">
+                                    <option ng-repeat="sch in ScheduleList" value="{{sch.Deliv_sched_cd}}">{{sch.Deliv_sched_cd}}</option>
+                                    <option disabled selected value>Select Schedule</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-12">
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Periodicity">Periodicity</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.periodicity" style="margin-left:-24px; width:168px;">
+                                    <option ng-repeat="pr in PeriodicityList" value="{{pr.ID}}">{{pr.Value}}</option>
+                                    <option disabled selected value>Select Periodicity</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="MOT">MOT</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" ng-model="secondTrade.MOT" style="margin-left:-24px; width:168px;" ng-change="getVechicleData(trade.MOT)">
+                                    <option ng-repeat="mt in MOTList" value="{{mt.ID}}">{{mt.Value}}</option>
+                                    <option disabled selected value>Select MOT</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Vehicle">Vehicle</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" ng-model="secondTrade.vehicle" style="margin-left:-24px; width:168px;">
+                                    <option ng-repeat="vch in VehicleList" value="{{vch.Mot_num}}">{{vch.Mot_cd}}</option>
+                                    <option disabled selected value>Select Vehicle</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Carrier">Carrier</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.carrier" style="margin-left:-24px; width:168px;">
+                                    <option ng-repeat="car in CarrierList" value="{{car.Company_num}}">{{car.Company_cd}}</option>
+                                    <option disabled selected value>Select Carrier</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row" style="border:groove; min-height:55%;">
+                <div class="col-md-12">
+                    <div class="tab">
+                        <button class="tablinks" ng-click="openTabData($event, 'SecondDetails')" id="defaultOpen">Details</button>
+                        <button class="tablinks" ng-click="openTabData($event, 'SecondCost')">Cost</button>
+                        <button class="tablinks" ng-click="openTabData($event, 'SecondContractual')">Contractual</button>
+                    </div>
+
+                    <div id="SecondDetails" class="tabcontent">
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                <div class="col-md-4" style="border:groove; height:312px;">
+                                    <div class="row">
+                                        <label for="PriceType">Price</label>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label for="PriceType">Price Type</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.priceType">
+                                                <option ng-repeat="prty in PriceTypeList" value="{{prty.ID}}">{{prty.Value}}</option>
+                                                <option disabled selected value>Select Price Type</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top:2%;">
+                                        <div class="col-md-4">
+                                            <label for="Index">Index</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-disabled="Index" ng-model="secondTrade.index">
+                                                <option ng-repeat="indd in IndexList" value="{{indd.Quote_def_num}}">{{indd.Quote_def_cd}}</option>
+                                                <option disabled selected value>Select Index</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top:2%;">
+                                        <div class="col-md-4">
+                                            <label for="PricePremDisc">Price/Prem-disc</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <input class="k-textbox input-sm full-width" ng-disabled="true" type="text" placeholder=" Price/Prem Disc" ng-model="secondTrade.pricePremDisc1" />
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.pricePremDisc2" ng-change="selectionCCY1(secondTrade.pricePremDisc2)">
+                                                        <option ng-repeat="dccy in PricePremDisc2List" value="{{dccy.curr_cd}}">{{dccy.curr_cd}}</option>
+                                                        <option disabled selected value>Select</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.pricePremDisc3">
+                                                        <option ng-repeat="prpr in PricePremDisc3List" value="{{prpr.Uom_cd}}">{{prpr.Uom_cd}}</option>
+                                                        <option disabled selected value>Select</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top:2%;">
+                                        <div class="col-md-4">
+                                            <label for="Schedule">Schedule</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-disabled="fixed" ng-model="secondTrade.dschedule">
+                                                <option ng-repeat="dsch in dScheduleList" value="{{dsch.ID}}">{{dsch.Value}}</option>
+                                                <option disabled selected value>Select Schedule</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top:2%;">
+                                        <div class="col-md-4">
+                                            <label for="PricingRule">Pricing Rule</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-disabled="Index" ng-model="secondTrade.pricingRule" ng-change="getPricingRule(trade.pricingRule)">
+                                                <option ng-repeat="prul in PricingRuleList" value="{{prul.ID}}">{{prul.Value}}</option>
+                                                <option disabled selected value>Select Pricing Rule</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top:2%;">
+                                        <div class="col-md-4">
+                                            <label for="PricingTerm">Pricing Term</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-disabled="Index" ng-model="secondTrade.pricingTerm">
+                                                <option ng-repeat="prterm in PricingTermList" value="{{prterm.Pricing_term_cd}}">{{prterm.Pricing_term_cd}}</option>
+                                                <option disabled selected value>Select Pricing Term</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4" style="border:groove; height:312px;">
+                                    <div class="row">
+                                        <label for="MTM">MTM</label>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label for="MTMCurve">MTM Curve</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.mTMCurveList">
+                                                <option ng-repeat="mtmcurve in MTMCurveList" value="{{mtmcurve.Curve_num}}">{{mtmcurve.Curve_def_cd}}</option>
+                                                <option disabled selected value>Select MTM Curve</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4" style="border:groove; height:312px;">
+                                    <div class="row">
+                                        <label for="Contract">Contract</label>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label for="Agreementtype">Agreement Type</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.agreementtype" ng-change="agreementFromDropdown(secondTrade.agreementtype)">
+                                                <option ng-repeat="agrtype in Agreementtypeist" value="{{agrtype.Agreement_cd}}">{{agrtype.Agreement_cd}}</option>
+                                                <option disabled selected value>Select Agreement Type</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label for="AgreementForm">Agreement Form</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.agreementForm">
+                                                <option ng-repeat="agrfrom in AgreementFormist" value="{{agrfrom.Provision_cd}}">{{agrfrom.Provision_cd}}</option>
+                                                <option disabled selected value>Select Agreement Form</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="SecondCost" class="tabcontent">
+                        <div class="row">
+                            <div class="col-md-12" style="border:groove; height:312px; margin-left:2%; width:98%;">
+
+                                <div class="col-md-2">
+                                    <div class="row">
+                                        <label for="PriceTypeC">Price Type</label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.priceTypeC" style="margin-left:-24px; width:168px;">
+                                                <option ng-repeat="prty in PriceTypeCList" value="{{prty.ID}}">{{prty.Value}}</option>
+                                                <option disabled selected value>Select Price Type</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="row">
+                                        <label for="IndexC">Index</label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.indexC" style="margin-left:-24px; width:168px;">
+                                                <option ng-repeat="ind in IndexCList" value="{{ind.Quote_def_num}}">{{ind.Quote_def_cd}}</option>
+                                                <option disabled selected value>Select Index</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="row">
+                                        <label for="PricePremC">Price/Prem</label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <input class="k-textbox input-sm full-width" type="text" ng-disabled="true" placeholder=" Price/Prem" ng-model="secondTrade.PricePremC" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="row">
+                                        <label for="CCY">CCY</label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <select class="form-control input-sm full-width" ng-model="trade.CCYC" ng-disabled="true" style="margin-left:-24px; width:168px;">
+                                                <option ng-repeat="ccy in CCYCList" value="{{ccy.curr_cd}}">{{ccy.curr_cd}}</option>
+                                                <option disabled selected value>Select CCY</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="row">
+                                        <label for="UOM">UOM</label>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.UOMC" style="margin-left:-24px; width:168px;">
+                                                <option ng-repeat="uom in UOMCList" value="{{uom.Uom_cd}}">{{uom.Uom_cd}}</option>
+                                                <option disabled selected value>Select UOM</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="SecondContractual" class="tabcontent">
+                        <div class="row">
+                            <div class="col-md-12" style="border:groove; height:312px; margin-left:2%; width:98%;">
+                                <div class="row">
+                                    <label for="Settlement">Settlement</label>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <label for="CCYCC">CCY</label>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.CCYCC">
+                                            <option ng-repeat="cycc in CCYCCList" value="{{cycc.curr_cd}}">{{cycc.curr_cd}}</option>
+                                            <option disabled selected value>Select CCY</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <label for="UOMCC">UOM</label>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.UOMCC">
+                                            <option ng-repeat="uomc in UOMCCList" value="{{uomc.Uom_cd}}">{{uomc.Uom_cd}}</option>
+                                            <option disabled selected value>Select UOM</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="row" style="margin-top:2%;">
+                                    <div class="col-md-1">
+                                        <label for="PaymentCC">Payment</label>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <select class="form-control input-sm full-width" ng-disabled="true" ng-model="secondTrade.paymentCC">
+                                            <option ng-repeat="pay in PaymentCCList" value="{{pay.payment_term_cd}}">{{pay.payment_term_cd}}</option>
+                                            <option disabled selected value>Select Payment</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:1%;">
+                <div class="col-md-2 pull-right">
+                    <button class="block" ng-click="saveSecondtrade(SecondTradeForm.$valid)">Save</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div id="InterbookTradeSummary" class="tab-content" ng-if="selectedTab == 3">
+        <h2>summary</h2>
+    </div>
+</div>
+<div id="feedLoading" ng-show="isLoading">Loading...</div>

@@ -1,0 +1,86 @@
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\bin\Debug\SCCL.Repository.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\bin\Debug\SCCL.Repository.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\bin\Debug\RestSharp.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\bin\Debug\RestSharp.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\obj\Debug\SCXL.Repository.csprojAssemblyReference.cache
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\obj\Debug\SCXL.Repository.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\obj\Debug\SCXL.Repository.csproj.CopyComplete
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\obj\Debug\SCCL.Repository.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\obj\Debug\SCCL.Repository.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCCL.Repository\bin\Debug\SCCL.Repository.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCCL.Repository\bin\Debug\SCCL.Repository.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCCL.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCCL.Repository\bin\Debug\RestSharp.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCCL.Repository\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCCL.Repository\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCCL.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCCL.Repository\bin\Debug\RestSharp.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCCL.Repository\obj\Debug\SCXL.Repository.csprojAssemblyReference.cache
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCCL.Repository\obj\Debug\SCXL.Repository.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCCL.Repository\obj\Debug\SCXL.Repository.csproj.CopyComplete
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCCL.Repository\obj\Debug\SCCL.Repository.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCCL.Repository\obj\Debug\SCCL.Repository.pdb
+C:\Suncor Application\InterBookClient\SCCL.Repository\bin\Debug\SCCL.Repository.dll
+C:\Suncor Application\InterBookClient\SCCL.Repository\bin\Debug\SCCL.Repository.pdb
+C:\Suncor Application\InterBookClient\SCCL.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Suncor Application\InterBookClient\SCCL.Repository\bin\Debug\RestSharp.dll
+C:\Suncor Application\InterBookClient\SCCL.Repository\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\InterBookClient\SCCL.Repository\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\InterBookClient\SCCL.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Suncor Application\InterBookClient\SCCL.Repository\bin\Debug\RestSharp.xml
+C:\Suncor Application\InterBookClient\SCCL.Repository\obj\Debug\SCXL.Repository.csprojAssemblyReference.cache
+C:\Suncor Application\InterBookClient\SCCL.Repository\obj\Debug\SCXL.Repository.csproj.CoreCompileInputs.cache
+C:\Suncor Application\InterBookClient\SCCL.Repository\obj\Debug\SCXL.Repository.csproj.CopyComplete
+C:\Suncor Application\InterBookClient\SCCL.Repository\obj\Debug\SCCL.Repository.dll
+C:\Suncor Application\InterBookClient\SCCL.Repository\obj\Debug\SCCL.Repository.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\SCCL.Repository\bin\Debug\SCCL.Repository.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCCL.Repository\bin\Debug\SCCL.Repository.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\SCCL.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCCL.Repository\bin\Debug\RestSharp.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCCL.Repository\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCCL.Repository\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\SCCL.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCCL.Repository\bin\Debug\RestSharp.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCCL.Repository\obj\Debug\SCXL.Repository.csprojAssemblyReference.cache
+C:\Suncor Application\Price Export\PriceExportAutomation\SCCL.Repository\obj\Debug\SCXL.Repository.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Price Export\PriceExportAutomation\SCCL.Repository\obj\Debug\SCXL.Repository.csproj.CopyComplete
+C:\Suncor Application\Price Export\PriceExportAutomation\SCCL.Repository\obj\Debug\SCCL.Repository.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCCL.Repository\obj\Debug\SCCL.Repository.pdb
+C:\Suncor Application\Price Export\Application\SCCL.Repository\bin\Debug\SCCL.Repository.dll
+C:\Suncor Application\Price Export\Application\SCCL.Repository\bin\Debug\SCCL.Repository.pdb
+C:\Suncor Application\Price Export\Application\SCCL.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Suncor Application\Price Export\Application\SCCL.Repository\bin\Debug\RestSharp.dll
+C:\Suncor Application\Price Export\Application\SCCL.Repository\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\Price Export\Application\SCCL.Repository\bin\Debug\SCXLRestService.Logs.dll
+C:\Suncor Application\Price Export\Application\SCCL.Repository\bin\Debug\log4net.dll
+C:\Suncor Application\Price Export\Application\SCCL.Repository\bin\Debug\SCXLRestService.Logs.pdb
+C:\Suncor Application\Price Export\Application\SCCL.Repository\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\Price Export\Application\SCCL.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Suncor Application\Price Export\Application\SCCL.Repository\bin\Debug\RestSharp.xml
+C:\Suncor Application\Price Export\Application\SCCL.Repository\bin\Debug\log4net.xml
+C:\Suncor Application\Price Export\Application\SCCL.Repository\obj\Debug\SCXL.Repository.csprojAssemblyReference.cache
+C:\Suncor Application\Price Export\Application\SCCL.Repository\obj\Debug\SCXL.Repository.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Price Export\Application\SCCL.Repository\obj\Debug\SCXL.Repository.csproj.CopyComplete
+C:\Suncor Application\Price Export\Application\SCCL.Repository\obj\Debug\SCCL.Repository.dll
+C:\Suncor Application\Price Export\Application\SCCL.Repository\obj\Debug\SCCL.Repository.pdb
+E:\Business\Example Application\Application\SCCL.Repository\bin\Debug\SCCL.Repository.dll
+E:\Business\Example Application\Application\SCCL.Repository\bin\Debug\SCCL.Repository.pdb
+E:\Business\Example Application\Application\SCCL.Repository\bin\Debug\Newtonsoft.Json.dll
+E:\Business\Example Application\Application\SCCL.Repository\bin\Debug\RestSharp.dll
+E:\Business\Example Application\Application\SCCL.Repository\bin\Debug\SCXL.Model.dll
+E:\Business\Example Application\Application\SCCL.Repository\bin\Debug\SCXLRestService.Logs.dll
+E:\Business\Example Application\Application\SCCL.Repository\bin\Debug\log4net.dll
+E:\Business\Example Application\Application\SCCL.Repository\bin\Debug\SCXLRestService.Logs.pdb
+E:\Business\Example Application\Application\SCCL.Repository\bin\Debug\SCXL.Model.pdb
+E:\Business\Example Application\Application\SCCL.Repository\bin\Debug\Newtonsoft.Json.xml
+E:\Business\Example Application\Application\SCCL.Repository\bin\Debug\RestSharp.xml
+E:\Business\Example Application\Application\SCCL.Repository\bin\Debug\log4net.xml
+E:\Business\Example Application\Application\SCCL.Repository\obj\Debug\SCXL.Repository.csprojAssemblyReference.cache
+E:\Business\Example Application\Application\SCCL.Repository\obj\Debug\SCXL.Repository.csproj.CoreCompileInputs.cache
+E:\Business\Example Application\Application\SCCL.Repository\obj\Debug\SCXL.Repository.csproj.CopyComplete
+E:\Business\Example Application\Application\SCCL.Repository\obj\Debug\SCCL.Repository.dll
+E:\Business\Example Application\Application\SCCL.Repository\obj\Debug\SCCL.Repository.pdb

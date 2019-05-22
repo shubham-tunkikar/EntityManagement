@@ -1,0 +1,6 @@
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\bin\Debug\SCCL.Repository.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\bin\Debug\SCCL.Repository.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\obj\Debug\SCCL.Repository.csprojAssemblyReference.cache
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\obj\Debug\SCCL.Repository.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\obj\Debug\SCCL.Repository.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCCL.Repository\obj\Debug\SCCL.Repository.pdb

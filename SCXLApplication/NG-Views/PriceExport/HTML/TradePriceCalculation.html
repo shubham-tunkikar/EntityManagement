@@ -1,0 +1,155 @@
+﻿
+<link href="../../../Content/TradePriceCalculation.css" rel="stylesheet" />
+
+
+<div id="MainDiv" class="row" ng-controller="TradePriceCalculationCont">
+    <div class="tabbable tabs-below" ng-init="selectedTab = 1;" ng-controller="InternalTradeCont">
+        <ul class="nav nav-tabs">
+            <li ng-class="{active: selectedTab == 1}"><a data-toggle="tab" ng-click="selectedTab = 1;">Trade Price Calculation</a></li>
+        </ul>
+        <div id="TradePriceCalculationDiv" class="tab-content" ng-if="selectedTab == 1">
+            <form name="tradePriceForm" novalidate>
+                <!-- For Search Option Design -->
+                <div class="row first-row">
+                    <div class="col-md-12">
+                        <div class="row" id="searchDiv">
+                            <label for="Search">Search</label>
+                        </div>
+                        <div id="BelowSearchDiv" class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label for="TradeNo">Trade Number</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input class="k-textbox input-sm full-width" type="text" name="tradeNumber" placeholder="Trade Number" ng-model="tradePrice.TradeNumber" required ng-pattern="/^[,0-9]*$/" />
+                                    <span class="alert-danger" ng-show="tradePriceForm.tradeNumber.$error.pattern">
+                                        Accepts only numerics and Comma Symbol
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="BelowSearchDiv" class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label for="ref2Number">Ref 2 Number</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input class="k-textbox input-sm full-width" type="text" name="tradeRef2Number" placeholder="Ref 2 Number" ng-model="tradePrice.DealID2" required ng-pattern="/^[a-zA-Z0-9]*$/" />
+                                    <span class="alert-danger" ng-show="tradePriceForm.tradeRef2Number.$error.pattern">
+                                        Accepts only alphanumeric
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="BelowSearchDiv" class="col-md-3">
+                            <div id="AccPeriodDiv" class="row">
+                                <div class="col-md-3">
+                                    <label for="AccPeriod">Acc. Period</label>
+                                </div>
+                                <div class="col-md-7">
+                                    <select class="form-control input-sm full-width" name="accountingPeriod" ng-model="tradePrice.Act_period_cd">
+                                        <option ng-repeat="t in AccountingPeriodList" value="{{t.Act_period_cd}}">{{t.Act_period_cd}}</option>
+                                        <option disabled selected value>Select Accounting Period</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div id="btnResetAndSave" class="col-md-1 pull-right">
+                            <button class="btn btn-warning btn-md" ng-click="resetFunction()">Reset</button>
+                        </div>
+                        <div id="btnResetAndSave" class="col-md-1 pull-right">
+                            <button class="btn btn-primary btn-md" ng-click="ExportTable()">Export</button>
+                        </div>
+                        <div id="btnResetAndSave" class="col-md-1 pull-right">
+                            <button type="submit" class="btn btn-primary btn-md" ng-click="getIteamHeadeList()">Search</button>
+                        </div>
+
+                    </div>
+                </div>
+                <hr />
+                <!--for Table Design-->
+
+                <div class="tableFixHead">
+                    <!--class="row" id="table-scroll">-->
+                    <table class="table table-condensed table-bordered" id="fixed_header">
+                        <thead id="tableHeader">
+                            <tr>
+                                <th>
+                                    <button type="button" ng-click="expandAll(allExpanded = !allExpanded); getInnerTableAllData()">
+                                        <span id="expandButton" ng-bind="allExpanded ? '-' : '+'"></span>
+                                    </button>
+                                </th>
+                                <th id="tradeNo">Trade Number</th>
+                                <th id="sectionCSS">Section</th>
+                                <th>Commodity</th>
+                                <th>Location</th>
+                                <th>Buy/Sell</th>
+                                <th id="priceUOM">Price UOM</th>
+                                <th id="priceCCY">Price CCY</th>
+                                <th>MOT</th>
+                                <th id="underStartDate">Underlying Start Date</th>
+                                <th id="underEndDate">Underlying End Date</th>
+                                <th id="ref2">Ref 2</th>
+                                <th id="costType">Cost Type</th>
+                                <th id="schedule">Schedule</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat-start="tradePrice in ListOuterTable">
+                                <td>
+                                    <button ng-click="expanded = !expanded; getInnerTableData(tradePrice['item_hdr_num'])" expand>
+                                        <span id="expandInnerButton" ng-bind="expanded ? '-' : '+'"></span>
+                                    </button>
+                                </td>
+                                <td ng-bind="tradePrice['Trade_Number']"></td>
+                                <td ng-bind="tradePrice['Section']"></td>
+                                <td ng-bind="tradePrice['Commodity']"></td>
+                                <td ng-bind="tradePrice.Location"></td>
+                                <td ng-bind="tradePrice['Buy_sell']"></td>
+                                <td ng-bind="tradePrice['Price_UOM']"></td>
+                                <td ng-bind="tradePrice['Price_CCY']"></td>
+                                <td ng-bind="tradePrice['MOT']"></td>
+                                <td ng-bind="tradePrice['Underlying_Start_Date']"></td>
+                                <td ng-bind="tradePrice['Underlying_End_Date']"></td>
+                                <td ng-bind="tradePrice['Ref_2']"></td>
+                                <td ng-bind="tradePrice['Cost_Type']"></td>
+                                <td ng-bind="tradePrice['deliv_sched_cd']"></td>
+                            </tr>
+                            <tr ng-repeat-end ng-show="expanded">
+                                <td></td>
+                                <td colspan="13">
+                                    <div id="innerFeedLoading" ng-show="isLoadingPriceInnerTable">Loading...</div>
+                                    <label for="innerTable">Trade Number- Price Details</label>
+                                    <div class="tableFixHeadinner">
+                                        <table class="table table-condensed table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th ng-repeat="(header, value) in tradePrice.InnerTable[0]">
+                                                        {{header}}
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr ng-repeat="row in tradePrice.InnerTable">
+                                                    <td id="innerTabledataCss" ng-repeat="cell in row">
+                                                        {{cell}}
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div id="dvTable" ng-hide="true"></div>
+                    <div id="feedLoading" ng-show="isLoadingPrice">{{loderMessage}}</div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+

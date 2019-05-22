@@ -1,0 +1,7 @@
+D:\Software\MS\project\Application\SCXL.Logs\bin\Release\SCXLRestService.Logs.dll
+D:\Software\MS\project\Application\SCXL.Logs\bin\Release\SCXLRestService.Logs.pdb
+D:\Software\MS\project\Application\SCXL.Logs\bin\Release\log4net.dll
+D:\Software\MS\project\Application\SCXL.Logs\bin\Release\log4net.xml
+D:\Software\MS\project\Application\SCXL.Logs\obj\Release\APP.Logs.csprojResolveAssemblyReference.cache
+D:\Software\MS\project\Application\SCXL.Logs\obj\Release\SCXLRestService.Logs.dll
+D:\Software\MS\project\Application\SCXL.Logs\obj\Release\SCXLRestService.Logs.pdb

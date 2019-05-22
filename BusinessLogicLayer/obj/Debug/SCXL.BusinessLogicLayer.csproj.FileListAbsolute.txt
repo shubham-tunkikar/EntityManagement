@@ -1,0 +1,98 @@
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\bin\Debug\SCCL.Repository.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\bin\Debug\RestSharp.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\bin\Debug\SCCL.Repository.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\bin\Debug\RestSharp.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csprojAssemblyReference.cache
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csproj.CopyComplete
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\bin\Debug\RestSharp.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\bin\Debug\SCCL.Repository.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\bin\Debug\SCCL.Repository.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\bin\Debug\RestSharp.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csprojAssemblyReference.cache
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csproj.CopyComplete
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\bin\Debug\RestSharp.dll
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\bin\Debug\SCCL.Repository.dll
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\bin\Debug\SCCL.Repository.pdb
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\bin\Debug\RestSharp.xml
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csprojAssemblyReference.cache
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csproj.CopyComplete
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Suncor Application\InterBookClient\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\bin\Debug\RestSharp.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\bin\Debug\SCCL.Repository.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\bin\Debug\SCCL.Repository.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\bin\Debug\RestSharp.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csprojAssemblyReference.cache
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csproj.CopyComplete
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\bin\Debug\RestSharp.dll
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\bin\Debug\SCCL.Repository.dll
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\bin\Debug\SCXLRestService.Logs.dll
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\bin\Debug\log4net.dll
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\bin\Debug\SCCL.Repository.pdb
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\bin\Debug\SCXLRestService.Logs.pdb
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\bin\Debug\RestSharp.xml
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\bin\Debug\log4net.xml
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csprojAssemblyReference.cache
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csproj.CopyComplete
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Suncor Application\Price Export\Application\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+E:\Business\Example Application\Application\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+E:\Business\Example Application\Application\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+E:\Business\Example Application\Application\BusinessLogicLayer\bin\Debug\Newtonsoft.Json.dll
+E:\Business\Example Application\Application\BusinessLogicLayer\bin\Debug\RestSharp.dll
+E:\Business\Example Application\Application\BusinessLogicLayer\bin\Debug\SCCL.Repository.dll
+E:\Business\Example Application\Application\BusinessLogicLayer\bin\Debug\SCXL.Model.dll
+E:\Business\Example Application\Application\BusinessLogicLayer\bin\Debug\SCXLRestService.Logs.dll
+E:\Business\Example Application\Application\BusinessLogicLayer\bin\Debug\log4net.dll
+E:\Business\Example Application\Application\BusinessLogicLayer\bin\Debug\SCCL.Repository.pdb
+E:\Business\Example Application\Application\BusinessLogicLayer\bin\Debug\SCXLRestService.Logs.pdb
+E:\Business\Example Application\Application\BusinessLogicLayer\bin\Debug\SCXL.Model.pdb
+E:\Business\Example Application\Application\BusinessLogicLayer\bin\Debug\Newtonsoft.Json.xml
+E:\Business\Example Application\Application\BusinessLogicLayer\bin\Debug\RestSharp.xml
+E:\Business\Example Application\Application\BusinessLogicLayer\bin\Debug\log4net.xml
+E:\Business\Example Application\Application\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csprojAssemblyReference.cache
+E:\Business\Example Application\Application\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+E:\Business\Example Application\Application\BusinessLogicLayer\obj\Debug\SCXL.BusinessLogicLayer.csproj.CopyComplete
+E:\Business\Example Application\Application\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+E:\Business\Example Application\Application\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb

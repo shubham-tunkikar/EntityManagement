@@ -1,0 +1,252 @@
+﻿<div id="MainDiv" class="row" ng-controller="MasterEmployeeCont">
+    <div class="tabbable tabs-below" ng-init="selectedTab = 1;">
+        <ul class="nav nav-tabs">
+            <li ng-class="{active: selectedTab == 1}"><a data-toggle="tab" ng-click="selectedTab = 1;">Add Employee Details</a></li>
+            <li ng-class="{active: selectedTab == 2}"><a data-toggle="tab" ng-click="selectedTab = 2;">Show Employee Details</a></li>
+        </ul>
+        <div id="AddEmployeeDetailsDiv" class="tab-content" ng-if="selectedTab == 1">
+            <form name="masterEmployeeForm" novalidate>
+                <div class="row" id="masterempDiv1">
+                    <div class="col-md-12" style="height:70px;">
+                        <div class="col-md-2">
+                            <div class="row">
+                                <label for="EmployeeName">Employee Name</label>
+                            </div>
+                            <div class="row">
+                                <input class="k-textbox input-sm full-width" type="text" name="empName" placeholder="Employee Name" ng-model="emp.EMP_Name" required ng-pattern="/^[a-zA-Z ]*$/" />
+                            </div>
+                            <div class="row">
+                                <span class="alert-danger" ng-show="masterEmployeeForm.empName.$error.pattern">
+                                    Accepts only alphabetic character
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <label for="EmployeeName">Employee Type</label>
+                            </div>
+                            <div class="row">
+                                <select class="form-control input-sm full-width" name="accountingPeriod" ng-model="emp.FK_SD_Role_ID">
+                                    <option ng-repeat="emptype in EmployeeTypeList" value="{{emptype.Role_Id}}">{{emptype.Role_Name}}</option>
+                                    <option disabled selected value>Select Employee Type</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <label for="PanCard">Pan Card</label>
+                            </div>
+                            <div class="row">
+                                <input class="k-textbox input-sm full-width" type="text" name="panCard" placeholder="Pan Card" ng-model="emp.EMP_Pan_Card_Number" required ng-pattern="/^[0-9]*$/" />
+                            </div>
+                            <div class="row">
+                                <span class="alert-danger" ng-show="masterEmployeeForm.panCard.$error.pattern">
+                                    Accepts only Number
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <label for="AdharCard">Adhar Card</label>
+                            </div>
+                            <div class="row">
+                                <input class="k-textbox input-sm full-width" type="text" name="adharCard" placeholder="Adhar Card" ng-model="emp.EMP_Adhar_Card_Number" required ng-pattern="/^[a-z A-z 0-9]*$/" />
+                            </div>
+                            <div class="row">
+                                <span class="alert-danger" ng-show="masterEmployeeForm.adharCard.$error.pattern">
+                                    Accepts only Alphnumeric value
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <label for="MobileNumber">Mobile Number</label>
+                            </div>
+                            <div class="row">
+                                <input class="k-textbox input-sm full-width" type="text" name="mobileNumber" placeholder="Mobile Number" ng-model="emp.EMP_Mobile_Number" required ng-pattern="/^[0-9]*$/" ng-maxlength="10" />
+                            </div>
+                            <div class="row">
+                                <span class="alert-danger" ng-show="masterEmployeeForm.mobileNumber.$error.pattern">
+                                    Accepts only Number
+                                </span>
+                                <span class="alert-danger" ng-show="masterEmployeeForm.$error.maxlength">
+                                    Only 10 Digit
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <label for="EmailId">Email Id</label>
+                            </div>
+                            <div class="row">
+                                <input class="k-textbox input-sm full-width" type="text" name="emailId" placeholder="Email Id" ng-model="emp.EMP_EmailId" required ng-pattern="/^[a-zA-z0-9@.]*$/" />
+
+                            </div>
+                            <div class="row">
+                                <span class="alert-danger" ng-show="masterEmployeeForm.emailId.$error.pattern">
+                                    Accepts valid Email Id
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-2">
+                            <div class="row">
+                                <label for="residentialAddress">Residential Adress</label>
+                            </div>
+                            <div class="row">
+                                <input class="k-textbox input-sm full-width" type="text" name="residentialAddress" placeholder="Residential Address" ng-model="emp.EMP_Address" required ng-pattern="/^[a-z A-Z 0-9]*$/" />
+                            </div>
+                            <div class="row">
+                                <span class="alert-danger" ng-show="masterEmployeeForm.residentialAddress.$error.pattern">
+                                    Accepts only Alphnumeric value
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <label for="DOB">Date Of Birth</label>
+                            </div>
+                            <div class="row">
+                                <input type="date" ng-model="emp.EMP_DateOfBirth" name="employeedate" class="k-textbox input-sm full-width" style="width: 86%;" required min="{{today}}" />
+                            </div>
+                            <div class="row">
+                                <span class="alert-danger" ng-show="masterEmployeeForm.employeedate.$error.pattern">
+                                    Accepts only Alphnumeric value
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row" id="masterempDiv2">
+                    <div class="col-md-12">
+                        <div class="col-md-2">
+                            <div class="row">
+                                <label for="bankAccNo">Bank Account Number</label>
+                            </div>
+                            <div class="row">
+                                <input class="k-textbox input-sm full-width" type="text" name="bankAccNo" placeholder="Bank Account Number" ng-model="emp.EMP_Bank_Acc_Number" required ng-pattern="/^[a-z A-Z 0-9]*$/" />
+                            </div>
+                            <div class="row">
+                                <span class="alert-danger" ng-show="masterEmployeeForm.bankAccNo.$error.pattern">
+                                    Accepts only Alphnumeric value
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <label for="bankAccName">Bank Name</label>
+                            </div>
+                            <div class="row">
+                                <input class="k-textbox input-sm full-width" type="text" name="bankAccName" placeholder="Bank Name" ng-model="emp.EMP_Bank_Name" required ng-pattern="/^[a-z A-Z]*$/" />
+                            </div>
+                            <div class="row">
+                                <span class="alert-danger" ng-show="masterEmployeeForm.bankAccName.$error.pattern">
+                                    Accepts only Alphabetic Character
+                                </span>
+                            </div>
+
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <label for="bankBranchName">Branch Name</label>
+                            </div>
+                            <div class="row">
+                                <input class="k-textbox input-sm full-width" type="text" name="bankBranchName" placeholder="Bank Branch Name" ng-model="emp.EMP_Bank_Branch_Name" required ng-pattern="/^[a-z A-Z]*$/" />
+                            </div>
+                            <div class="row">
+                                <span class="alert-danger" ng-show="masterEmployeeForm.bankBranchName.$error.pattern">
+                                    Accepts only Alphabetic Character
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <label for="bankBranchIFSC">Branch IFSC Code</label>
+                            </div>
+                            <div class="row">
+                                <input class="k-textbox input-sm full-width" type="text" name="bankBranchIFSC" placeholder="Bank Branch IFSC Code" ng-model="emp.EMP_Bank_IFSC_CODE" required ng-pattern="/^[a-zA-z0-9]*$/" />
+                            </div>
+                            <div class="row">
+                                <span class="alert-danger" ng-show="masterEmployeeForm.bankBranchIFSC.$error.pattern">
+                                    Accepts only Alphabetic Character
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row" id="masterempDiv3">
+                    <div class="col-md-12">
+                        <div class="col-md-1 pull-right">
+                            <button type="button" class="btn btn-warning btn-md" ng-click="clearEmployeeFunctionality()">Reset</button>
+                        </div>
+                        <div class="col-md-1 pull-right">
+                            <button type="submit" class="btn btn-primary btn-lg" ng-click="addEmployeeTypeInDatabase()">{{masterempbtnName}}</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="DisplayEmployeeDetailsDiv" class="tab-content" ng-if="selectedTab == 2">
+            <div class="row tableFixHead">
+                <table class="table table-condensed table-bordered table-stripe">
+                    <thead id="tableHeader">
+                        <tr>
+                            <th>Sr No</th>
+                            <th>Employee Id</th>
+                            <th>Employee Name</th>
+                            <th>Employee Type(Name)</th>
+                            <th>Pan Card</th>
+                            <th>Adhar Card</th>
+                            <th>Mobile Number</th>
+                            <th>Email</th>
+                            <th>Address</th>
+                            <th>Date Of Birth</th>
+                            <th>Ban A/c Number</th>
+                            <th>Bank Name</th>
+                            <th>Branch Name</th>
+                            <th>IFSC Code</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="tableemployee in Listtableemployee">
+                            <td> {{$index + 1}}</td>
+                            <td ng-bind="tableemployee['Emp_Id']"></td>
+                            <td ng-bind="tableemployee['EMP_Name']"></td>
+                            <td ng-bind="tableemployee['FK_SD_Role_Name']"></td>
+                            <td ng-bind="tableemployee['EMP_Pan_Card_Number']"></td>
+                            <td ng-bind="tableemployee['EMP_Adhar_Card_Number']"></td>
+                            <td ng-bind="tableemployee['EMP_Mobile_Number']"></td>
+                            <td ng-bind="tableemployee['EMP_EmailId']"></td>
+                            <td ng-bind="tableemployee['EMP_Address']"></td>
+                            <td ng-bind="tableemployee['EMP_DateOfBirth']"></td>
+                            <td ng-bind="tableemployee['EMP_Bank_Acc_Number']"></td>
+                            <td ng-bind="tableemployee['EMP_Bank_Name']"></td>
+                            <td ng-bind="tableemployee['EMP_Bank_Branch_Name']"></td>
+                            <td ng-bind="tableemployee['EMP_Bank_IFSC_CODE']"></td>
+                            <td>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default btn" ng-click="editEmployee(tableemployee['Emp_Id']);"><i class="glyphicon glyphicon-pencil"></i></button>
+                                    <button type="button" class="btn btn-default btn" ng-click="deleteEmployee(tableemployee['Emp_Id']);"><i class="glyphicon glyphicon-trash"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-success alert-dismissible" ng-show="InfoMEssage">
+        <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Success!</strong> {{messageNotification}}
+    </div>
+    <div class="alert alert-danger alert-dismissible" ng-show="ErrorMEssage">
+        <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Warning!</strong>  {{messageNotification}}
+    </div>
+</div>

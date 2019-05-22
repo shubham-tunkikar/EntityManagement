@@ -1,0 +1,589 @@
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\SCXLApplication.dll.config
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\SCXLApplication.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\SCXLApplication.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\csc.exe
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\csc.exe.config
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\csc.rsp
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\csi.exe
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\csi.exe.config
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\csi.rsp
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.AppContext.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Console.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.IO.Compression.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.IO.Pipes.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Security.AccessControl.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Security.Claims.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.ValueTuple.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Xml.XPath.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\vbc.exe
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\vbc.exe.config
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\vbc.rsp
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\VBCSCompiler.exe
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\Antlr3.Runtime.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\Newtonsoft.Json.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\RestSharp.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Net.Http.Formatting.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.Helpers.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.Http.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.Http.WebHost.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.Mvc.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.Optimization.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.Razor.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.WebPages.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.WebPages.Razor.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\WebGrease.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\RestSharp.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.Helpers.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.Mvc.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.Optimization.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.Razor.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.WebPages.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.WebPages.Razor.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\Newtonsoft.Json.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\Antlr3.Runtime.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Net.Http.Formatting.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.Http.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Web.Http.WebHost.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\obj\Debug\SCXLApplication.csprojAssemblyReference.cache
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\obj\Debug\SCXLApplication.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\obj\Debug\SCXLApplication.csproj.CopyComplete
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\obj\Debug\SCXLApplication.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication\SCXLApplication\obj\Debug\SCXLApplication.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\SCXLApplication.dll.config
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\SCXLApplication.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\SCXLApplication.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\csc.exe
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\csc.exe.config
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\csc.rsp
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\csi.exe
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\csi.exe.config
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\csi.rsp
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.AppContext.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Console.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.IO.Compression.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.IO.Pipes.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Security.AccessControl.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Security.Claims.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.ValueTuple.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Xml.XPath.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\vbc.exe
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\vbc.exe.config
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\vbc.rsp
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\VBCSCompiler.exe
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\Antlr3.Runtime.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\BusinessLogicLayer.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\Castle.Core.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\Castle.Windsor.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\Newtonsoft.Json.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\RestSharp.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\SCCL.Repository.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\SCXL.Model.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Net.Http.Formatting.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.Helpers.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.Http.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.Http.WebHost.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.Mvc.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.Optimization.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.Razor.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.WebPages.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.WebPages.Razor.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\WebGrease.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\BusinessLogicLayer.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\SCCL.Repository.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\SCXL.Model.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\Castle.Windsor.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\RestSharp.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.Helpers.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.Mvc.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.Optimization.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.Razor.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.WebPages.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.WebPages.Razor.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\Newtonsoft.Json.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\Antlr3.Runtime.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Net.Http.Formatting.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.Http.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Web.Http.WebHost.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\obj\Debug\SCXLApplication.csprojAssemblyReference.cache
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\obj\Debug\SCXLApplication.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\obj\Debug\SCXLApplication.csproj.CopyComplete
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\obj\Debug\SCXLApplication.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXLApplication\obj\Debug\SCXLApplication.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\SCXLApplication.dll.config
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\SCXLApplication.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\SCXLApplication.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\csc.exe
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\csc.exe.config
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\csc.rsp
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\csi.exe
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\csi.exe.config
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\csi.rsp
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.AppContext.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Console.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.IO.Compression.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.IO.Pipes.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Security.AccessControl.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Security.Claims.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.ValueTuple.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Xml.XPath.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\vbc.exe
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\vbc.exe.config
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\vbc.rsp
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\VBCSCompiler.exe
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\Antlr3.Runtime.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\BusinessLogicLayer.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\Castle.Core.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\Castle.Windsor.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\Newtonsoft.Json.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\RestSharp.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\SCCL.Repository.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\SCXL.Model.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Net.Http.Formatting.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.Helpers.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.Http.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.Http.WebHost.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.Mvc.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.Optimization.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.Razor.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.WebPages.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.WebPages.Razor.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\WebGrease.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\BusinessLogicLayer.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\SCCL.Repository.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\SCXL.Model.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\Castle.Windsor.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\RestSharp.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.Helpers.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.Mvc.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.Optimization.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.Razor.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.WebPages.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.WebPages.Razor.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\Newtonsoft.Json.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\Antlr3.Runtime.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Net.Http.Formatting.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.Http.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Web.Http.WebHost.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\obj\Debug\SCXLApplication.csprojAssemblyReference.cache
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\obj\Debug\SCXLApplication.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\obj\Debug\SCXLApplication.csproj.CopyComplete
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\obj\Debug\SCXLApplication.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXLApplication\obj\Debug\SCXLApplication.pdb
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\SCXLApplication.dll.config
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\SCXLApplication.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\SCXLApplication.pdb
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\csc.exe
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\csc.exe.config
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\csc.rsp
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\csi.exe
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\csi.exe.config
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\csi.rsp
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.AppContext.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Console.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.IO.Compression.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.IO.Pipes.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Security.AccessControl.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Security.Claims.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.ValueTuple.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Xml.XPath.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\vbc.exe
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\vbc.exe.config
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\vbc.rsp
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\VBCSCompiler.exe
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\Antlr3.Runtime.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\BusinessLogicLayer.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\Castle.Core.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\Castle.Windsor.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\Newtonsoft.Json.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\RestSharp.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\SCCL.Repository.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\SCXL.Model.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Net.Http.Formatting.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.Helpers.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.Http.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.Http.WebHost.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.Mvc.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.Optimization.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.Razor.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.WebPages.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.WebPages.Razor.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\WebGrease.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\BusinessLogicLayer.pdb
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\SCCL.Repository.pdb
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\SCXL.Model.pdb
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\Castle.Windsor.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\RestSharp.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.Helpers.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.Mvc.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.Optimization.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.Razor.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.WebPages.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.WebPages.Razor.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\Newtonsoft.Json.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\Antlr3.Runtime.pdb
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Net.Http.Formatting.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.Http.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Web.Http.WebHost.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Suncor Application\InterBookClient\SCXLApplication\obj\Debug\SCXLApplication.csprojAssemblyReference.cache
+C:\Suncor Application\InterBookClient\SCXLApplication\obj\Debug\SCXLApplication.csproj.CoreCompileInputs.cache
+C:\Suncor Application\InterBookClient\SCXLApplication\obj\Debug\SCXLApplication.csproj.CopyComplete
+C:\Suncor Application\InterBookClient\SCXLApplication\obj\Debug\SCXLApplication.dll
+C:\Suncor Application\InterBookClient\SCXLApplication\obj\Debug\SCXLApplication.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\SCXLApplication.dll.config
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\SCXLApplication.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\SCXLApplication.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\csc.exe
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\csc.exe.config
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\csc.rsp
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\csi.exe
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\csi.exe.config
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\csi.rsp
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.AppContext.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Console.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.IO.Compression.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.IO.Pipes.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Security.AccessControl.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Security.Claims.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.ValueTuple.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Xml.XPath.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\vbc.exe
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\vbc.exe.config
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\vbc.rsp
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\VBCSCompiler.exe
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\Antlr3.Runtime.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\BusinessLogicLayer.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\Castle.Core.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\Castle.Windsor.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\Newtonsoft.Json.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\RestSharp.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\SCCL.Repository.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\SCXL.Model.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Net.Http.Formatting.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.Helpers.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.Http.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.Http.WebHost.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.Mvc.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.Optimization.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.Razor.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.WebPages.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.WebPages.Razor.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\WebGrease.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\BusinessLogicLayer.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\SCCL.Repository.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\SCXL.Model.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\Castle.Windsor.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\RestSharp.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.Helpers.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.Mvc.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.Optimization.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.Razor.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.WebPages.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.WebPages.Razor.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\Newtonsoft.Json.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\Antlr3.Runtime.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Net.Http.Formatting.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.Http.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Web.Http.WebHost.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\obj\Debug\SCXLApplication.csprojAssemblyReference.cache
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\obj\Debug\SCXLApplication.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\obj\Debug\SCXLApplication.csproj.CopyComplete
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\obj\Debug\SCXLApplication.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXLApplication\obj\Debug\SCXLApplication.pdb
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\SCXLApplication.dll.config
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\SCXLApplication.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\SCXLApplication.pdb
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\csc.exe
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\csc.exe.config
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\csc.rsp
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\csi.exe
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\csi.exe.config
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\csi.rsp
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.AppContext.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Console.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.IO.Compression.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.IO.Pipes.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Security.AccessControl.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Security.Claims.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.ValueTuple.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Xml.XPath.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\vbc.exe
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\vbc.exe.config
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\vbc.rsp
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\VBCSCompiler.exe
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\Antlr3.Runtime.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\BusinessLogicLayer.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\Castle.Core.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\Castle.Windsor.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\Newtonsoft.Json.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\RestSharp.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\SCCL.Repository.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\SCXL.Model.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\SCXLRestService.Logs.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Net.Http.Formatting.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.Helpers.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.Http.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.Http.WebHost.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.Mvc.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.Optimization.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.Razor.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.WebPages.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.WebPages.Razor.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\WebGrease.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\log4net.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\BusinessLogicLayer.pdb
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\SCCL.Repository.pdb
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\SCXLRestService.Logs.pdb
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\SCXL.Model.pdb
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\Castle.Windsor.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\RestSharp.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.Helpers.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.Mvc.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.Optimization.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.Razor.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.WebPages.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.WebPages.Razor.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\Newtonsoft.Json.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\Antlr3.Runtime.pdb
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Net.Http.Formatting.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.Http.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Web.Http.WebHost.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\bin\log4net.xml
+C:\Suncor Application\Price Export\Application\SCXLApplication\obj\Debug\SCXLApplication.csprojAssemblyReference.cache
+C:\Suncor Application\Price Export\Application\SCXLApplication\obj\Debug\SCXLApplication.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Price Export\Application\SCXLApplication\obj\Debug\SCXLApplication.csproj.CopyComplete
+C:\Suncor Application\Price Export\Application\SCXLApplication\obj\Debug\SCXLApplication.dll
+C:\Suncor Application\Price Export\Application\SCXLApplication\obj\Debug\SCXLApplication.pdb

@@ -1,0 +1,17 @@
+D:\Software\MS\project\Application\SCCL.Repository\bin\Release\SCCL.Repository.dll
+D:\Software\MS\project\Application\SCCL.Repository\bin\Release\SCCL.Repository.pdb
+D:\Software\MS\project\Application\SCCL.Repository\bin\Release\Dapper.dll
+D:\Software\MS\project\Application\SCCL.Repository\bin\Release\Newtonsoft.Json.dll
+D:\Software\MS\project\Application\SCCL.Repository\bin\Release\RestSharp.dll
+D:\Software\MS\project\Application\SCCL.Repository\bin\Release\SCXL.Model.dll
+D:\Software\MS\project\Application\SCCL.Repository\bin\Release\SCXLRestService.Logs.dll
+D:\Software\MS\project\Application\SCCL.Repository\bin\Release\log4net.dll
+D:\Software\MS\project\Application\SCCL.Repository\bin\Release\SCXLRestService.Logs.pdb
+D:\Software\MS\project\Application\SCCL.Repository\bin\Release\SCXL.Model.pdb
+D:\Software\MS\project\Application\SCCL.Repository\bin\Release\Dapper.xml
+D:\Software\MS\project\Application\SCCL.Repository\bin\Release\Newtonsoft.Json.xml
+D:\Software\MS\project\Application\SCCL.Repository\bin\Release\RestSharp.xml
+D:\Software\MS\project\Application\SCCL.Repository\bin\Release\log4net.xml
+D:\Software\MS\project\Application\SCCL.Repository\obj\Release\APP.Repository.csprojResolveAssemblyReference.cache
+D:\Software\MS\project\Application\SCCL.Repository\obj\Release\SCCL.Repository.dll
+D:\Software\MS\project\Application\SCCL.Repository\obj\Release\SCCL.Repository.pdb

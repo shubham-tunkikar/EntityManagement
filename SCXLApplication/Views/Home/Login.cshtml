@@ -1,0 +1,28 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/Application Login JS/LoginJS.js"></script>
+    <link href="~/Content/LoginPageCSS.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Proart Media Soluation Login Page</title>
+</head>
+<body ng-app="loginapp" ng-controller="AccountController">
+    <div class="login-page">
+
+        <div class="form">
+            <form ng-submit="login()">
+                <input class="form-control" type="text" placeholder="User Name" ng-model="loginpage.UserID" required />
+                <input class="form-control" type="password" placeholder="Password" ng-model="loginpage.Password" required />                
+                <button type="submit" class="btn btn-default pull-right">Log In</button>
+            </form>
+        </div>
+       
+    </div>
+</body>
+</html>

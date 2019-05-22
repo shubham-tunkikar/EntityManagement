@@ -1,0 +1,208 @@
+E:\Business\Example Application\Application\SCXLApplication\obj\Debug\Application.csprojAssemblyReference.cache
+E:\Business\Example Application\Application\SCXLApplication\obj\Debug\Application.csproj.CoreCompileInputs.cache
+E:\Business\Example Application\Application\SCXLApplication\bin\SCXLApplication.dll.config
+E:\Business\Example Application\Application\SCXLApplication\bin\SCXLApplication.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\SCXLApplication.pdb
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\csc.exe
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\csc.exe.config
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\csc.rsp
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\csi.exe
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\csi.exe.config
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\csi.rsp
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.AppContext.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Collections.Immutable.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Console.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.IO.Compression.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.IO.FileSystem.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.IO.Pipes.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Reflection.Metadata.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Security.AccessControl.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Security.Claims.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.ValueTuple.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Xml.XPath.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\vbc.exe
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\vbc.exe.config
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\vbc.rsp
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\VBCSCompiler.exe
+E:\Business\Example Application\Application\SCXLApplication\bin\roslyn\VBCSCompiler.exe.config
+E:\Business\Example Application\Application\SCXLApplication\bin\Antlr3.Runtime.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\BusinessLogicLayer.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\Castle.Core.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\Castle.Windsor.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\Microsoft.Web.Infrastructure.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\Newtonsoft.Json.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\RestSharp.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\SCCL.Repository.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\SCXL.Model.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\SCXLRestService.Logs.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Net.Http.Formatting.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.Helpers.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.Http.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.Http.WebHost.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.Mvc.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.Optimization.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.Razor.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.WebPages.Deployment.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.WebPages.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.WebPages.Razor.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\WebGrease.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\log4net.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\BusinessLogicLayer.pdb
+E:\Business\Example Application\Application\SCXLApplication\bin\SCCL.Repository.pdb
+E:\Business\Example Application\Application\SCXLApplication\bin\SCXLRestService.Logs.pdb
+E:\Business\Example Application\Application\SCXLApplication\bin\SCXL.Model.pdb
+E:\Business\Example Application\Application\SCXLApplication\bin\Castle.Windsor.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\RestSharp.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.Helpers.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.Mvc.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.Optimization.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.Razor.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.WebPages.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.WebPages.Deployment.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.WebPages.Razor.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\Newtonsoft.Json.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\Antlr3.Runtime.pdb
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Net.Http.Formatting.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.Http.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Web.Http.WebHost.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Business\Example Application\Application\SCXLApplication\bin\log4net.xml
+E:\Business\Example Application\Application\SCXLApplication\obj\Debug\Application.csproj.CopyComplete
+E:\Business\Example Application\Application\SCXLApplication\obj\Debug\SCXLApplication.dll
+E:\Business\Example Application\Application\SCXLApplication\obj\Debug\SCXLApplication.pdb
+E:\Business\Example Application\Application\SCXLApplication\bin\Dapper.dll
+E:\Business\Example Application\Application\SCXLApplication\bin\Dapper.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\SCXLApplication.dll.config
+D:\Software\MS\project\Application\SCXLApplication\bin\SCXLApplication.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\SCXLApplication.pdb
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\csc.exe
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\csc.exe.config
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\csc.rsp
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\csi.exe
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\csi.exe.config
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\csi.rsp
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.AppContext.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Collections.Immutable.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Console.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.IO.Compression.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.IO.FileSystem.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.IO.Pipes.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Reflection.Metadata.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Security.AccessControl.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Security.Claims.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.ValueTuple.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Xml.XPath.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\vbc.exe
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\vbc.exe.config
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\vbc.rsp
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\VBCSCompiler.exe
+D:\Software\MS\project\Application\SCXLApplication\bin\roslyn\VBCSCompiler.exe.config
+D:\Software\MS\project\Application\SCXLApplication\bin\Antlr3.Runtime.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\BusinessLogicLayer.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\Castle.Core.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\Castle.Windsor.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\Microsoft.Web.Infrastructure.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\Newtonsoft.Json.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\RestSharp.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\SCCL.Repository.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\SCXL.Model.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\SCXLRestService.Logs.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Net.Http.Formatting.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.Helpers.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.Http.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.Http.WebHost.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.Mvc.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.Optimization.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.Razor.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.WebPages.Deployment.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.WebPages.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.WebPages.Razor.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\WebGrease.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\Dapper.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\log4net.dll
+D:\Software\MS\project\Application\SCXLApplication\bin\BusinessLogicLayer.pdb
+D:\Software\MS\project\Application\SCXLApplication\bin\SCCL.Repository.pdb
+D:\Software\MS\project\Application\SCXLApplication\bin\SCXLRestService.Logs.pdb
+D:\Software\MS\project\Application\SCXLApplication\bin\SCXL.Model.pdb
+D:\Software\MS\project\Application\SCXLApplication\bin\Castle.Windsor.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\RestSharp.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.Helpers.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.Mvc.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.Optimization.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.Razor.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.WebPages.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.WebPages.Deployment.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.WebPages.Razor.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\Newtonsoft.Json.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\Antlr3.Runtime.pdb
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Net.Http.Formatting.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.Http.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Web.Http.WebHost.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\Dapper.xml
+D:\Software\MS\project\Application\SCXLApplication\bin\log4net.xml
+D:\Software\MS\project\Application\SCXLApplication\obj\Debug\Application.csprojResolveAssemblyReference.cache
+D:\Software\MS\project\Application\SCXLApplication\obj\Debug\SCXLApplication.dll
+D:\Software\MS\project\Application\SCXLApplication\obj\Debug\SCXLApplication.pdb

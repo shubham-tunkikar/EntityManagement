@@ -1,0 +1,88 @@
+﻿#MainDiv {
+    margin-top: 4%;
+    margin-left: 1%;
+    margin-right: 0px !important;
+    font-size: 17px;
+    position:fixed;
+    width:95%;
+}
+    #MainDiv input {
+        font-size: 17px;
+    }
+    #MainDiv button {
+        font-size: 17px;
+    }
+    #MainDiv select{
+        font-size: 17px;
+    }
+#searchDiv {
+    border: groove;
+    height: 81px;
+}
+
+    #searchDiv div {
+        margin-top: 1%;
+    }
+
+#masterempDiv1 {
+    border: groove;
+    height:230px;
+}
+
+#masterempDiv1 div {
+    margin-top: 1%;
+}
+#masterempDiv2 {
+    border: groove;
+    height: 162px;
+}
+
+    #masterempDiv2 div {
+        margin-top: 1%;
+    }
+#masterempDiv3 {
+    border: groove;
+    height: 70px;
+}
+#masterempDiv3 div {
+    margin-top: 4px;
+}
+.tableFixHead {
+    overflow-y: auto;
+    height: 645px;
+    border: groove;
+}
+
+    .tableFixHead th {
+        position: sticky;
+        top: 0;
+    }
+
+/* Just common table stuff. Really. */
+table {
+    border-collapse: collapse;
+    width: 600%;
+}
+
+th, td {
+    padding: 8px 16px;
+}
+
+th {
+    background: #eee;
+    text-align: center;
+}
+
+tbody, td {
+    text-align: center;
+}
+/*.tableFixHeadinner {
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 300px;
+}
+
+    .tableFixHeadinner th {
+        position: sticky;
+        top: 0;
+    }*/

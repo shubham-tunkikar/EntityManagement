@@ -1,0 +1,115 @@
+﻿<div id="MainDiv" class="row" ng-controller="LoginDetailsCont">
+    <div class="tabbable tabs-below" ng-init="selectedTab = 1;">
+        <ul class="nav nav-tabs">
+            <li ng-class="{active: selectedTab == 1}"><a data-toggle="tab" ng-click="selectedTab = 1;">Add Login Details</a></li>
+            <li ng-class="{active: selectedTab == 2}"><a data-toggle="tab" ng-click="selectedTab = 2;">Show Login Details</a></li>
+        </ul>
+        <div id="AddLoginDetailsDiv" class="tab-content" ng-if="selectedTab == 1">
+            <form name="masterLoginForm" novalidate>
+                <div class="col-md-12" style="height:70px; margin-top:1%;">
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="EmployeeName">Employee Type</label>
+                        </div>
+                        <div class="row">
+                            <select class="form-control input-sm full-width" name="accountingPeriod" ng-model="login.FK_SD_Role_Id">
+                                <option ng-repeat="emptype in EmployeeTypeLoginList" value="{{emptype.FK_SD_Role_ID}}">{{emptype.FK_SD_Role_Name}}</option>
+                                <option disabled selected value>Select Employee Type</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="EmployeeName">Employee Id</label>
+                        </div>
+                        <div class="row">
+                            <select class="form-control input-sm full-width" name="accountingPeriod" ng-model="login.FK_SD_Emp_Id" ng-change="afterChangeEmpId(login.FK_SD_Emp_Id)">
+                                <option ng-repeat="empID in EmployeeIDList" value="{{empID.Emp_Id}}">{{empID.EMP_Name}}</option>
+                                <option disabled selected value>Select Employee ID</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="UserID">User ID</label>
+                        </div>
+                        <div class="row">
+                            <input class="k-textbox input-sm full-width" type="text" name="UserID" placeholder="User ID" ng-model="login.User_Id" required ng-pattern="/^[a-z A-z 0-9]*$/" />
+                        </div>
+                        <div class="row">
+                            <span class="alert-danger" ng-show="masterEmployeeForm.UserID.$error.pattern">
+                                Accepts only Alphnumeric value
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="Password">Password</label>
+                        </div>
+                        <div class="row">
+                            <input class="k-textbox input-sm full-width" type="text" name="PasswordText" placeholder="User ID" ng-model="login.UPassword" required ng-pattern="/^[a-z A-z 0-9]*$/" />
+                        </div>
+                        <div class="row">
+                            <span class="alert-danger" ng-show="masterEmployeeForm.PasswordText.$error.pattern">
+                                Accepts only Alphnumeric value
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-1">
+                        <button type="submit" class="btn btn-primary btn-lg" ng-click="AddandUpdateDetails()">{{masterloginbtnName}}</button>
+                    </div>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-warning btn-md" ng-click="clearLoginDetailsFunctionality()">Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="DisplayLoginDetailsDiv" class="tab-content" ng-if="selectedTab == 2">
+            <div class="row tableFixHead">
+                <table class="table table-condensed table-bordered table-stripe">
+                    <thead id="tableHeader">
+                        <tr>
+                            <th>Sr No</th>
+                            <th>Login ID</th>
+                            <th>Role Id</th>
+                            <th>Role Name</th>
+                            <th>Emp Id</th>
+                            <th>Employee Name</th>
+                            <th>UserId</th>
+                            <th>Password</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="tablelogin in ListtableLogin">
+                            <td> {{$index + 1}}</td>
+                            <td ng-bind="tablelogin['Login_Id']"></td>
+                            <td ng-bind="tablelogin['FK_SD_Role_Id']"></td>
+                            <td ng-bind="tablelogin['Role_Name']"></td>
+                            <td ng-bind="tablelogin['FK_SD_Emp_Id']"></td>
+                            <td ng-bind="tablelogin['EMP_Name']"></td>
+                            <td ng-bind="tablelogin['User_Id']"></td>
+                            <td ng-bind="tablelogin['UPassword']"></td>
+                            <td>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default btn" ng-click="editLoginDetails(tablelogin['Login_Id']);"><i class="glyphicon glyphicon-pencil"></i></button>
+                                    <button type="button" class="btn btn-default btn" ng-click="deleteLoginDetails(tablelogin['Login_Id']);"><i class="glyphicon glyphicon-trash"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-success alert-dismissible" ng-show="InfoLoginMessage">
+        <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Success!</strong> {{messageLoginNotification}}
+    </div>
+    <div class="alert alert-danger alert-dismissible" ng-show="ErrorLoginMessage">
+        <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Warning!</strong>  {{messageLoginNotification}}
+    </div>
+</div>

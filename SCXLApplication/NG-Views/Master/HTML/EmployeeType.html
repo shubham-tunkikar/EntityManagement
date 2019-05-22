@@ -1,0 +1,69 @@
+﻿<div id="MainDiv" class="row" ng-controller="EmployeeTypeCont">
+    <div class="tabbable tabs-below" ng-init="selectedTab = 1;">
+        <ul class="nav nav-tabs">
+            <li ng-class="{active: selectedTab == 1}"><a data-toggle="tab" ng-click="selectedTab = 1;">Add Employee Type Details</a></li>
+            <li ng-class="{active: selectedTab == 2}"><a data-toggle="tab" ng-click="selectedTab = 2;">Show Employee Type Details</a></li>
+        </ul>
+        <div id="AddEmpTypeDetailsDiv" class="tab-content" ng-if="selectedTab == 1">
+            <form name="masterEmpTypeForm" novalidate>
+                <div class="row" id="searchDiv">
+                    <div class="col-md-2">
+                        <label for="RoleName">Employee Type Name</label>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="row">
+                            <input class="k-textbox input-sm full-width" type="text" name="empTypeName" placeholder="Enter Employee Name" ng-model="emptype.empTypeName" required ng-pattern="/^[a-zA-Z ]*$/" />
+                        </div>
+                        <div class="row">
+                            <span class="alert-danger" ng-show="masterEmpTypeForm.empTypeName.$error.pattern">
+                                Accepts only alphabetic character
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <button type="submit" class="btn btn-primary btn-md" ng-click="addingemptype()">{{btnemptype}}</button>
+                    </div>
+                    <div class="col-md-1">
+                        <button type="submit" class="btn btn-warning btn-md" ng-click="reSetemptypeForm()">Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="DisplayEmployeeTypeDetailsDiv" class="tab-content" ng-if="selectedTab == 2">
+            <div class="row tableFixHead">
+                <table class="table table-condensed table-bordered table-stripe">
+                    <thead id="tableHeader">
+                        <tr>
+                            <th>Sr No</th>
+                            <th>Employee ID</th>
+                            <th>Employee Name</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="tableempType in ListtableempType">
+                            <td> {{$index + 1}}</td>
+                            <td ng-bind="tableempType['Employee_Id']"></td>
+                            <td ng-bind="tableempType['Employee_Name']"></td>
+                            <td>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default btn" ng-click="editEmployeeType(tableempType['Emp_Id']);"><i class="glyphicon glyphicon-pencil"></i></button>
+                                    <button type="button" class="btn btn-default btn" ng-click="deleteEmployeeType(tableempType['Emp_Id']);"><i class="glyphicon glyphicon-trash"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-success alert-dismissible" ng-show="InfoempTypeMessage">
+        <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Success!</strong> {{messageempTypeNotification}}
+    </div>
+    <div class="alert alert-danger alert-dismissible" ng-show="ErrorempTypeMessage">
+        <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Warning!</strong>  {{messageempTypeNotification}}
+    </div>
+</div>

@@ -1,0 +1,32 @@
+﻿.header {
+    width: 800px;
+    height: 80px;
+    text-align: center;
+    background-color: #BDBDBD;
+}
+
+.footer {
+    background-color: #BDBDBD;
+    text-align: center;
+}
+
+.leftMenu {
+    height: 830px;
+    background-color: #D8D8D8;
+    width: 150px;
+}
+
+.mainContent {
+    height: 830px;
+    background-color: #E6E6E6;
+    width: 100%;
+}
+
+a {
+    display: block;
+    padding: 5px
+}
+.navbar-inversebar {
+    background-color: #010e54 !important;
+    border-color: #080808 !important;
+}

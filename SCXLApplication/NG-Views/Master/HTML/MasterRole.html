@@ -1,0 +1,50 @@
+﻿<div id="MainDiv" class="row" ng-controller="MasterRoleCont">
+    <form name="masterRoleForm" novalidate>
+        <div class="row" id="searchDiv">
+            <div class="col-md-1">
+                <label for="RoleName">Role Name</label>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <input class="k-textbox input-sm full-width" type="text" name="roleName" placeholder="Enter The Role Name" ng-model="role.roleName" required ng-pattern="/^[a-zA-Z ]*$/" />
+                </div>
+                <div class="row">
+                    <span class="alert-danger" ng-show="masterRoleForm.roleName.$error.pattern">
+                        Accepts only alphabetic character
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <button type="submit" class="btn btn-primary btn-md" ng-click="addingRole()">{{btnName}}</button>
+            </div>
+            <div class="col-md-1">                
+                <button type="submit" class="btn btn-warning btn-md" ng-click="reSetRoleForm()">Reset</button>
+            </div>
+        </div>
+
+        <div class="row tableFixHead">
+            <table class="table table-condensed table-bordered table-stripe">
+                <thead id="tableHeader">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>Role Name</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="tablerole in ListTableRole">
+                        <td> {{$index + 1}}</td>
+                        <td ng-bind="tablerole['Role_Name']"></td>
+                        <td>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default btn" ng-click="edit(tablerole.Role_Id);"><i class="glyphicon glyphicon-pencil"></i></button>
+                                <button type="button" class="btn btn-default btn" ng-click="delete(tablerole.Role_Id);"><i class="glyphicon glyphicon-trash"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </form>
+</div>

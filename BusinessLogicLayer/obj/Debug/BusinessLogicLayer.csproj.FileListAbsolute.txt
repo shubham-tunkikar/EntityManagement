@@ -1,0 +1,6 @@
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csprojAssemblyReference.cache
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb

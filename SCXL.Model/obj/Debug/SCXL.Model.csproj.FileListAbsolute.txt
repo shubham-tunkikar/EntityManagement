@@ -1,0 +1,36 @@
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXL.Model\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXL.Model\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXL.Model\obj\Debug\SCXL.Model.csprojAssemblyReference.cache
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXL.Model\obj\Debug\SCXL.Model.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXL.Model\obj\Debug\SCXL.Model.dll
+C:\Suncor Application\Intertrade\Application\SCXLApplication IntertradeBook\SCXL.Model\obj\Debug\SCXL.Model.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXL.Model\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXL.Model\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXL.Model\obj\Debug\SCXL.Model.csprojAssemblyReference.cache
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXL.Model\obj\Debug\SCXL.Model.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXL.Model\obj\Debug\SCXL.Model.dll
+C:\Suncor Application\Intertrade\Application\Daily Changing code\SCXL.Model\obj\Debug\SCXL.Model.pdb
+C:\Suncor Application\InterBookClient\SCXL.Model\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\InterBookClient\SCXL.Model\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\InterBookClient\SCXL.Model\obj\Debug\SCXL.Model.csprojAssemblyReference.cache
+C:\Suncor Application\InterBookClient\SCXL.Model\obj\Debug\SCXL.Model.csproj.CoreCompileInputs.cache
+C:\Suncor Application\InterBookClient\SCXL.Model\obj\Debug\SCXL.Model.dll
+C:\Suncor Application\InterBookClient\SCXL.Model\obj\Debug\SCXL.Model.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXL.Model\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXL.Model\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXL.Model\obj\Debug\SCXL.Model.csprojAssemblyReference.cache
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXL.Model\obj\Debug\SCXL.Model.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXL.Model\obj\Debug\SCXL.Model.dll
+C:\Suncor Application\Price Export\PriceExportAutomation\SCXL.Model\obj\Debug\SCXL.Model.pdb
+C:\Suncor Application\Price Export\Application\SCXL.Model\bin\Debug\SCXL.Model.dll
+C:\Suncor Application\Price Export\Application\SCXL.Model\bin\Debug\SCXL.Model.pdb
+C:\Suncor Application\Price Export\Application\SCXL.Model\obj\Debug\SCXL.Model.csprojAssemblyReference.cache
+C:\Suncor Application\Price Export\Application\SCXL.Model\obj\Debug\SCXL.Model.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Price Export\Application\SCXL.Model\obj\Debug\SCXL.Model.dll
+C:\Suncor Application\Price Export\Application\SCXL.Model\obj\Debug\SCXL.Model.pdb
+E:\Business\Example Application\Application\SCXL.Model\bin\Debug\SCXL.Model.dll
+E:\Business\Example Application\Application\SCXL.Model\bin\Debug\SCXL.Model.pdb
+E:\Business\Example Application\Application\SCXL.Model\obj\Debug\SCXL.Model.csprojAssemblyReference.cache
+E:\Business\Example Application\Application\SCXL.Model\obj\Debug\SCXL.Model.csproj.CoreCompileInputs.cache
+E:\Business\Example Application\Application\SCXL.Model\obj\Debug\SCXL.Model.dll
+E:\Business\Example Application\Application\SCXL.Model\obj\Debug\SCXL.Model.pdb

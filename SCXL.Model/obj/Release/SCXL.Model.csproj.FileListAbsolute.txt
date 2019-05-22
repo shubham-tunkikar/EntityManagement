@@ -1,0 +1,6 @@
+C:\Suncor Application\Price Export\Application\SCXL.Model\bin\Release\SCXL.Model.dll
+C:\Suncor Application\Price Export\Application\SCXL.Model\bin\Release\SCXL.Model.pdb
+C:\Suncor Application\Price Export\Application\SCXL.Model\obj\Release\SCXL.Model.csprojAssemblyReference.cache
+C:\Suncor Application\Price Export\Application\SCXL.Model\obj\Release\SCXL.Model.csproj.CoreCompileInputs.cache
+C:\Suncor Application\Price Export\Application\SCXL.Model\obj\Release\SCXL.Model.dll
+C:\Suncor Application\Price Export\Application\SCXL.Model\obj\Release\SCXL.Model.pdb

@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Proart Media Soluation";
+    ViewBag.loggedUserName = @ViewBag.loggedUserName;
+
+}
+<div style="min-height:739px;">
+    <ng-view></ng-view>
+</div>
+
+@section Scripts{
+    <script src="~/Scripts/AngularController/Routing.js"></script>
+    <script src="~/Scripts/ui-bootstrap-tpls-0.11.0.js"></script>
+    <script src="~/Scripts/table2excel.js"></script>
+    <script src="~/NG-Views/Master/Controller/MasterRoleController.js"></script>
+    <link href="~/Content/FormCss/MasterRoleCss.css" rel="stylesheet" />
+    <script src="~/NG-Views/Master/Controller/MasterEmployeeController.js"></script>
+    <script src="~/NG-Views/Master/Controller/LoginDetailsController.js"></script>
+    <script src="~/NG-Views/Master/Controller/MasterOrganization.js"></script>
+    <script src="~/NG-Views/Master/Controller/EmployeeTypeController.js"></script>
+}
+
+

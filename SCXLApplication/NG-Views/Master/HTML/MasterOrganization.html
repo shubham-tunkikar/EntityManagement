@@ -1,0 +1,52 @@
+﻿<div id="MainDiv" class="row" ng-controller="MasterOrganization">
+    <form name="masterRoleForm" novalidate>
+        <div class="row" id="searchDiv">
+            <div class="col-md-2">
+                <label for="Organisation">Organisation </label>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <input class="input-sm full-width" type="text" name="organisation" placeholder="Enter organisation name" ng-model="Organisation.Org_Name" required /> <!--ng-pattern="/^[a-zA-Z ]*$/"--> 
+                </div>
+                <!--<div class="row">
+                    <span class="alert-danger" ng-show="MasterOrganizationForm.organisation.$error.pattern">
+                        Accepts only alphabetic character
+                    </span>
+                </div>-->
+            </div>
+            <div class="col-md-1">
+                <button type="submit" class="btn btn-primary btn-md" ng-click="addOrganization(Organisation)" ng-if="isEdit==false">{{btnName}}</button>
+                <button type="submit" class="btn btn-primary btn-md" ng-click="editRecord(Organisation)" ng-if="isEdit==true">{{btnName}}</button>
+            </div>
+            <div class="col-md-1">
+                <!--<button type="submit" class="btn btn-warning btn-md" ng-click="reSetRoleForm()">Reset</button>-->
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+
+        <div class="row tableFixHead">
+            <table class="table table-condensed table-bordered table-stripe">
+                <thead id="tableHeader">
+                    <tr>
+                        <th>Sr No</th>
+                        <th>Organtion Name</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="tableorg in tblOrganizationData">
+                        <td> {{$index + 1}}</td>
+                        <td ng-bind="tableorg['Org_Name']"></td>
+                        <td>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default btn" ng-click="populateEditRecord(tableorg);"><i class="glyphicon glyphicon-pencil"></i></button>
+                                <button type="button" class="btn btn-default btn" ng-click="deleteRecord(tableorg);"><i class="glyphicon glyphicon-trash"></i></button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </form>
+</div>
